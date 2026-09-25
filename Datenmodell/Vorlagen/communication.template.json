@@ -1,0 +1,15 @@
+{
+  "_note": "BLANK FORM for the communication events (person → person). Copy it, rename it to communication.json, replace the sample event. subject is also the arrow label in aspect 1. Rules: ../Schema/events.schema.json.",
+  "exercise": "exercise-1",
+  "events": [
+    {
+      "_note": "time is the narrated time without a time zone; tick and phase are computed from it.",
+      "id": "communication-1",
+      "time": "2026-01-05T09:00:00",
+      "from": "role-1",
+      "to": "role-2",
+      "subject": "Subject of the message",
+      "body": "Optional mail text."
+    }
+  ]
+}

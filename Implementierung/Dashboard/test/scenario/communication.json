@@ -1,0 +1,4309 @@
+{
+  "exercise": "weserland-netz-run-1",
+  "events": [
+    {
+      "id": "c-0001",
+      "time": "2026-09-14T06:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0002",
+      "time": "2026-09-14T06:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Night shift handed over, normal",
+      "body": ""
+    },
+    {
+      "id": "c-0003",
+      "time": "2026-09-14T06:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0004",
+      "time": "2026-09-14T07:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0005",
+      "time": "2026-09-14T08:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0006",
+      "time": "2026-09-14T08:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Unusual engineering traffic detected during the night",
+      "body": ""
+    },
+    {
+      "id": "c-0007",
+      "time": "2026-09-14T08:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0008",
+      "time": "2026-09-14T08:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Control room walkthrough completed",
+      "body": ""
+    },
+    {
+      "id": "c-0009",
+      "time": "2026-09-14T09:00:00",
+      "from": "information_security_officer",
+      "to": "it_operations",
+      "subject": "Please check vendor remote access as a precaution",
+      "body": ""
+    },
+    {
+      "id": "c-0010",
+      "time": "2026-09-14T09:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0011",
+      "time": "2026-09-14T10:00:00",
+      "from": "it_operations",
+      "to": "ot_security",
+      "subject": "Access logs are being analyzed",
+      "body": ""
+    },
+    {
+      "id": "c-0012",
+      "time": "2026-09-14T10:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0013",
+      "time": "2026-09-14T11:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Consultation with the shift lead completed",
+      "body": ""
+    },
+    {
+      "id": "c-0014",
+      "time": "2026-09-14T12:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Suspicion is hardening, the pattern matches no planned maintenance",
+      "body": ""
+    },
+    {
+      "id": "c-0015",
+      "time": "2026-09-14T12:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Possible security incident in the process network",
+      "body": ""
+    },
+    {
+      "id": "c-0016",
+      "time": "2026-09-14T12:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0017",
+      "time": "2026-09-14T12:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Reference build reconciled with the vendor update",
+      "body": ""
+    },
+    {
+      "id": "c-0018",
+      "time": "2026-09-14T12:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "No action required according to the current overview",
+      "body": ""
+    },
+    {
+      "id": "c-0019",
+      "time": "2026-09-14T13:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Contact external ICS forensics as a precaution",
+      "body": ""
+    },
+    {
+      "id": "c-0020",
+      "time": "2026-09-14T13:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Grid state documented",
+      "body": ""
+    },
+    {
+      "id": "c-0021",
+      "time": "2026-09-14T14:00:00",
+      "from": "information_security_officer",
+      "to": "external_ics_forensics",
+      "subject": "Request for an initial assessment of the process network anomaly",
+      "body": ""
+    },
+    {
+      "id": "c-0022",
+      "time": "2026-09-14T14:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0023",
+      "time": "2026-09-14T15:00:00",
+      "from": "external_ics_forensics",
+      "to": "information_security_officer",
+      "subject": "We are reviewing the submitted logs at short notice",
+      "body": ""
+    },
+    {
+      "id": "c-0024",
+      "time": "2026-09-14T15:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Capacity reserves in the green",
+      "body": ""
+    },
+    {
+      "id": "c-0025",
+      "time": "2026-09-14T16:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Test record of the day archived",
+      "body": ""
+    },
+    {
+      "id": "c-0026",
+      "time": "2026-09-14T16:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0027",
+      "time": "2026-09-14T17:00:00",
+      "from": "it_operations",
+      "to": "information_security_officer",
+      "subject": "Access outside planned maintenance windows confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0028",
+      "time": "2026-09-14T17:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0029",
+      "time": "2026-09-14T18:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Initial assessment available, situation picture tomorrow morning",
+      "body": ""
+    },
+    {
+      "id": "c-0030",
+      "time": "2026-09-14T18:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0031",
+      "time": "2026-09-14T18:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "No action required according to the current overview",
+      "body": ""
+    },
+    {
+      "id": "c-0032",
+      "time": "2026-09-14T19:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0033",
+      "time": "2026-09-14T20:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0034",
+      "time": "2026-09-14T20:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0035",
+      "time": "2026-09-14T21:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Consultation with the shift lead completed",
+      "body": ""
+    },
+    {
+      "id": "c-0036",
+      "time": "2026-09-14T22:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0037",
+      "time": "2026-09-14T23:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Grid state documented",
+      "body": ""
+    },
+    {
+      "id": "c-0038",
+      "time": "2026-09-15T06:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Deadline status confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0039",
+      "time": "2026-09-15T06:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0040",
+      "time": "2026-09-15T06:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Night shift normal, anomaly still under examination",
+      "body": ""
+    },
+    {
+      "id": "c-0041",
+      "time": "2026-09-15T06:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0042",
+      "time": "2026-09-15T06:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0043",
+      "time": "2026-09-15T06:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Query on the reference build answered",
+      "body": ""
+    },
+    {
+      "id": "c-0044",
+      "time": "2026-09-15T07:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0045",
+      "time": "2026-09-15T07:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0046",
+      "time": "2026-09-15T07:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0047",
+      "time": "2026-09-15T08:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Query raised on the report scope",
+      "body": ""
+    },
+    {
+      "id": "c-0048",
+      "time": "2026-09-15T08:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0049",
+      "time": "2026-09-15T08:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Support ticket updated",
+      "body": ""
+    },
+    {
+      "id": "c-0050",
+      "time": "2026-09-15T09:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Consultation with the shift lead completed",
+      "body": ""
+    },
+    {
+      "id": "c-0051",
+      "time": "2026-09-15T09:00:00",
+      "from": "ot_security",
+      "to": "external_ics_forensics",
+      "subject": "Access concentrates on the engineering workstation and remote access",
+      "body": ""
+    },
+    {
+      "id": "c-0052",
+      "time": "2026-09-15T09:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0053",
+      "time": "2026-09-15T10:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Deadline status confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0054",
+      "time": "2026-09-15T10:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0055",
+      "time": "2026-09-15T10:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0056",
+      "time": "2026-09-15T11:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Grid state documented",
+      "body": ""
+    },
+    {
+      "id": "c-0057",
+      "time": "2026-09-15T11:00:00",
+      "from": "external_ics_forensics",
+      "to": "protection_and_control",
+      "subject": "Please provide the current reference build of the protection parameters",
+      "body": ""
+    },
+    {
+      "id": "c-0058",
+      "time": "2026-09-15T11:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Operations log updated",
+      "body": ""
+    },
+    {
+      "id": "c-0059",
+      "time": "2026-09-15T12:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Query raised on the report scope",
+      "body": ""
+    },
+    {
+      "id": "c-0060",
+      "time": "2026-09-15T12:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0061",
+      "time": "2026-09-15T12:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0062",
+      "time": "2026-09-15T12:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "No action required according to the current overview",
+      "body": ""
+    },
+    {
+      "id": "c-0063",
+      "time": "2026-09-15T12:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Query on the reference build answered",
+      "body": ""
+    },
+    {
+      "id": "c-0064",
+      "time": "2026-09-15T13:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Capacity reserves in the green",
+      "body": ""
+    },
+    {
+      "id": "c-0065",
+      "time": "2026-09-15T13:00:00",
+      "from": "protection_and_control",
+      "to": "external_ics_forensics",
+      "subject": "Reference build of all protection relays submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0066",
+      "time": "2026-09-15T14:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Deadline status confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0067",
+      "time": "2026-09-15T14:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0068",
+      "time": "2026-09-15T15:00:00",
+      "from": "information_security_officer",
+      "to": "regulator_tso",
+      "subject": "Immediate notification: manipulation of protection and telecontrol parameters identified",
+      "body": ""
+    },
+    {
+      "id": "c-0069",
+      "time": "2026-09-15T15:00:00",
+      "from": "external_ics_forensics",
+      "to": "information_security_officer",
+      "subject": "Confirmed: protection and telecontrol parameters of several sites were altered",
+      "body": ""
+    },
+    {
+      "id": "c-0070",
+      "time": "2026-09-15T15:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0071",
+      "time": "2026-09-15T15:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0072",
+      "time": "2026-09-15T16:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Query raised on the report scope",
+      "body": ""
+    },
+    {
+      "id": "c-0073",
+      "time": "2026-09-15T16:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0074",
+      "time": "2026-09-15T16:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0075",
+      "time": "2026-09-15T17:00:00",
+      "from": "it_operations",
+      "to": "information_security_officer",
+      "subject": "Vendor remote access locked, no further access possible",
+      "body": ""
+    },
+    {
+      "id": "c-0076",
+      "time": "2026-09-15T17:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Treat all field sites as not trusted until further notice",
+      "body": ""
+    },
+    {
+      "id": "c-0077",
+      "time": "2026-09-15T17:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Operations log updated",
+      "body": ""
+    },
+    {
+      "id": "c-0078",
+      "time": "2026-09-15T18:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Immediate notification received, critical-infrastructure deadline running, interim report expected in 24h",
+      "body": ""
+    },
+    {
+      "id": "c-0079",
+      "time": "2026-09-15T18:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0080",
+      "time": "2026-09-15T18:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "No action required according to the current overview",
+      "body": ""
+    },
+    {
+      "time": "2026-09-15T18:00:00",
+      "from": "it_operations",
+      "to": "information_security_officer",
+      "subject": "Office network checked for persistence mechanisms, no findings",
+      "body": "",
+      "id": "c-0081"
+    },
+    {
+      "id": "c-0082",
+      "time": "2026-09-15T20:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0083",
+      "time": "2026-09-15T20:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Reference build reconciled with the vendor update",
+      "body": ""
+    },
+    {
+      "id": "c-0084",
+      "time": "2026-09-15T21:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0085",
+      "time": "2026-09-15T22:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Test record of the day archived",
+      "body": ""
+    },
+    {
+      "id": "c-0086",
+      "time": "2026-09-15T22:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0087",
+      "time": "2026-09-15T22:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0088",
+      "time": "2026-09-15T23:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0089",
+      "time": "2026-09-16T06:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Deadline status confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0090",
+      "time": "2026-09-16T06:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0091",
+      "time": "2026-09-16T06:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Night shift: nothing unusual in the manual operation run-up",
+      "body": ""
+    },
+    {
+      "id": "c-0092",
+      "time": "2026-09-16T06:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0093",
+      "time": "2026-09-16T06:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Status note for management updated",
+      "body": ""
+    },
+    {
+      "id": "c-0094",
+      "time": "2026-09-16T06:00:00",
+      "from": "external_ics_forensics",
+      "to": "information_security_officer",
+      "subject": "Interim status of the trace analysis submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0095",
+      "time": "2026-09-16T06:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Query on the reference build answered",
+      "body": ""
+    },
+    {
+      "id": "c-0096",
+      "time": "2026-09-16T07:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0097",
+      "time": "2026-09-16T07:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0098",
+      "time": "2026-09-16T07:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift record: grid state normal",
+      "body": ""
+    },
+    {
+      "id": "c-0099",
+      "time": "2026-09-16T08:00:00",
+      "from": "information_security_officer",
+      "to": "regulator_tso",
+      "subject": "Formal critical-infrastructure notification submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0100",
+      "time": "2026-09-16T08:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Query raised on the report scope",
+      "body": ""
+    },
+    {
+      "id": "c-0101",
+      "time": "2026-09-16T08:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Telecontrol disabled, switching operations on site only from now on",
+      "body": ""
+    },
+    {
+      "id": "c-0102",
+      "time": "2026-09-16T08:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0103",
+      "time": "2026-09-16T08:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Reference build reconciled with the vendor update",
+      "body": ""
+    },
+    {
+      "id": "c-0104",
+      "time": "2026-09-16T08:00:00",
+      "from": "external_ics_forensics",
+      "to": "information_security_officer",
+      "subject": "Interim status of the trace analysis submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0105",
+      "time": "2026-09-16T08:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Support ticket updated",
+      "body": ""
+    },
+    {
+      "id": "c-0106",
+      "time": "2026-09-16T09:00:00",
+      "from": "regulator_tso",
+      "to": "technical_management",
+      "subject": "Condition: load limits and switching bans until approval per site",
+      "body": ""
+    },
+    {
+      "id": "c-0107",
+      "time": "2026-09-16T09:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Test record of the day archived",
+      "body": ""
+    },
+    {
+      "id": "c-0108",
+      "time": "2026-09-16T10:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Deadline status confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0109",
+      "time": "2026-09-16T10:00:00",
+      "from": "technical_management",
+      "to": "grid_operations",
+      "subject": "Comply with the regulator's conditions with immediate effect",
+      "body": ""
+    },
+    {
+      "id": "c-0110",
+      "time": "2026-09-16T10:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0111",
+      "time": "2026-09-16T10:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0112",
+      "time": "2026-09-16T10:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0113",
+      "time": "2026-09-16T10:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0114",
+      "time": "2026-09-16T10:00:00",
+      "from": "external_ics_forensics",
+      "to": "information_security_officer",
+      "subject": "Interim status of the trace analysis submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0115",
+      "time": "2026-09-16T11:00:00",
+      "from": "protection_and_control",
+      "to": "field_crew_1",
+      "subject": "Test plan for the substations from tomorrow, order North/South/Harbor",
+      "body": ""
+    },
+    {
+      "id": "c-0116",
+      "time": "2026-09-16T11:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0117",
+      "time": "2026-09-16T12:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Query raised on the report scope",
+      "body": ""
+    },
+    {
+      "id": "c-0118",
+      "time": "2026-09-16T12:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0119",
+      "time": "2026-09-16T12:00:00",
+      "from": "protection_and_control",
+      "to": "field_crew_2",
+      "subject": "Test plan for Secondary Substations Group A follows after the substations",
+      "body": ""
+    },
+    {
+      "id": "c-0120",
+      "time": "2026-09-16T12:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Operations log updated",
+      "body": ""
+    },
+    {
+      "id": "c-0121",
+      "time": "2026-09-16T12:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Consultation with the regulator prepared",
+      "body": ""
+    },
+    {
+      "id": "c-0122",
+      "time": "2026-09-16T13:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0123",
+      "time": "2026-09-16T13:00:00",
+      "from": "protection_and_control",
+      "to": "field_crew_3",
+      "subject": "Test plan for Secondary Substations Group B follows after Group A",
+      "body": ""
+    },
+    {
+      "id": "c-0124",
+      "time": "2026-09-16T13:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "No action required according to the current overview",
+      "body": ""
+    },
+    {
+      "id": "c-0125",
+      "time": "2026-09-16T14:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Deadline status confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0126",
+      "time": "2026-09-16T14:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0127",
+      "time": "2026-09-16T14:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Consultation with the shift lead completed",
+      "body": ""
+    },
+    {
+      "id": "c-0128",
+      "time": "2026-09-16T15:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Reference parameter sets submitted for all site types",
+      "body": ""
+    },
+    {
+      "id": "c-0129",
+      "time": "2026-09-16T15:00:00",
+      "from": "protection_and_control",
+      "to": "control_system_vendor",
+      "subject": "Reference received, thanks for providing it at short notice",
+      "body": ""
+    },
+    {
+      "id": "c-0130",
+      "time": "2026-09-16T16:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Query raised on the report scope",
+      "body": ""
+    },
+    {
+      "id": "c-0131",
+      "time": "2026-09-16T16:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0132",
+      "time": "2026-09-16T16:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Grid state documented",
+      "body": ""
+    },
+    {
+      "id": "c-0133",
+      "time": "2026-09-16T17:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Manual operation settled in, first shift without incident",
+      "body": ""
+    },
+    {
+      "id": "c-0134",
+      "time": "2026-09-16T17:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Capacity reserves in the green",
+      "body": ""
+    },
+    {
+      "id": "c-0135",
+      "time": "2026-09-16T17:00:00",
+      "from": "it_operations",
+      "to": "control_system_vendor",
+      "subject": "New remote access procedure will be released only after a complete review",
+      "body": ""
+    },
+    {
+      "id": "c-0136",
+      "time": "2026-09-16T18:00:00",
+      "from": "grid_operations",
+      "to": "technical_management",
+      "subject": "Field campaign starts tomorrow with the three substations",
+      "body": ""
+    },
+    {
+      "id": "c-0137",
+      "time": "2026-09-16T18:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0138",
+      "time": "2026-09-16T18:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0139",
+      "time": "2026-09-16T19:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "time": "2026-09-16T19:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Intrusion detection itself verified, no external manipulation of the detection",
+      "body": "",
+      "id": "c-0140"
+    },
+    {
+      "id": "c-0141",
+      "time": "2026-09-16T20:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0142",
+      "time": "2026-09-16T20:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0143",
+      "time": "2026-09-16T20:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Operations log updated",
+      "body": ""
+    },
+    {
+      "id": "c-0144",
+      "time": "2026-09-16T21:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "No action required according to the current overview",
+      "body": ""
+    },
+    {
+      "id": "c-0145",
+      "time": "2026-09-16T22:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0146",
+      "time": "2026-09-16T22:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0147",
+      "time": "2026-09-17T06:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0148",
+      "time": "2026-09-17T06:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Field campaign starts today with Substation North",
+      "body": ""
+    },
+    {
+      "id": "c-0149",
+      "time": "2026-09-17T06:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0150",
+      "time": "2026-09-17T06:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0151",
+      "time": "2026-09-17T06:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Status note for management updated",
+      "body": ""
+    },
+    {
+      "id": "c-0152",
+      "time": "2026-09-17T06:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Routine check of intrusion detection: nothing new",
+      "body": ""
+    },
+    {
+      "id": "c-0153",
+      "time": "2026-09-17T07:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0154",
+      "time": "2026-09-17T07:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0155",
+      "time": "2026-09-17T08:00:00",
+      "from": "information_security_officer",
+      "to": "ot_security",
+      "subject": "Deadline overview for critical-infrastructure notifications updated",
+      "body": ""
+    },
+    {
+      "id": "c-0156",
+      "time": "2026-09-17T08:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0157",
+      "time": "2026-09-17T09:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0158",
+      "time": "2026-09-17T09:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Consultation with the shift lead completed",
+      "body": ""
+    },
+    {
+      "id": "c-0159",
+      "time": "2026-09-17T09:00:00",
+      "from": "field_crew_1",
+      "to": "protection_and_control",
+      "subject": "Readout of distance protection (Substation North) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0160",
+      "time": "2026-09-17T09:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0161",
+      "time": "2026-09-17T10:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Reference build reconciled with the vendor update",
+      "body": ""
+    },
+    {
+      "id": "c-0162",
+      "time": "2026-09-17T10:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Process network log analysis completed",
+      "body": ""
+    },
+    {
+      "id": "c-0163",
+      "time": "2026-09-17T10:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0164",
+      "time": "2026-09-17T11:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Grid state documented",
+      "body": ""
+    },
+    {
+      "id": "c-0165",
+      "time": "2026-09-17T12:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Incident documentation updated",
+      "body": ""
+    },
+    {
+      "id": "c-0166",
+      "time": "2026-09-17T12:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0167",
+      "time": "2026-09-17T12:00:00",
+      "from": "field_crew_1",
+      "to": "protection_and_control",
+      "subject": "Readout of differential protection (Substation North) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0168",
+      "time": "2026-09-17T12:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Consultation with the regulator prepared",
+      "body": ""
+    },
+    {
+      "id": "c-0169",
+      "time": "2026-09-17T12:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "No action required according to the current overview",
+      "body": ""
+    },
+    {
+      "id": "c-0170",
+      "time": "2026-09-17T13:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Capacity reserves in the green",
+      "body": ""
+    },
+    {
+      "id": "c-0171",
+      "time": "2026-09-17T14:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Test record of the day archived",
+      "body": ""
+    },
+    {
+      "id": "c-0172",
+      "time": "2026-09-17T14:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0173",
+      "time": "2026-09-17T15:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0174",
+      "time": "2026-09-17T15:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0175",
+      "time": "2026-09-17T15:00:00",
+      "from": "field_crew_1",
+      "to": "protection_and_control",
+      "subject": "Readout of telecontrol address table (Substation North) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0176",
+      "time": "2026-09-17T16:00:00",
+      "from": "information_security_officer",
+      "to": "ot_security",
+      "subject": "Status note for management updated",
+      "body": ""
+    },
+    {
+      "id": "c-0177",
+      "time": "2026-09-17T16:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Process network log analysis completed",
+      "body": ""
+    },
+    {
+      "id": "c-0178",
+      "time": "2026-09-17T16:00:00",
+      "from": "it_operations",
+      "to": "information_security_officer",
+      "subject": "Process network firewall rule set checked",
+      "body": ""
+    },
+    {
+      "id": "c-0179",
+      "time": "2026-09-17T17:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0180",
+      "time": "2026-09-17T18:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0181",
+      "time": "2026-09-17T18:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0182",
+      "time": "2026-09-17T18:00:00",
+      "from": "field_crew_1",
+      "to": "protection_and_control",
+      "subject": "Readout of signaling path (Substation North) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0183",
+      "time": "2026-09-17T19:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Consultation with the shift lead completed",
+      "body": ""
+    },
+    {
+      "id": "c-0184",
+      "time": "2026-09-17T20:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Deadline overview for critical-infrastructure notifications updated",
+      "body": ""
+    },
+    {
+      "id": "c-0185",
+      "time": "2026-09-17T20:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0186",
+      "time": "2026-09-17T21:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Approval granted: Substation North",
+      "body": ""
+    },
+    {
+      "id": "c-0187",
+      "time": "2026-09-17T21:00:00",
+      "from": "field_crew_1",
+      "to": "protection_and_control",
+      "subject": "Readout of switching command authorization (Substation North) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0188",
+      "time": "2026-09-17T21:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0189",
+      "time": "2026-09-17T22:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0190",
+      "time": "2026-09-17T22:00:00",
+      "from": "grid_operations",
+      "to": "technical_management",
+      "subject": "Substation North verified, Substation South follows tomorrow",
+      "body": ""
+    },
+    {
+      "id": "c-0191",
+      "time": "2026-09-17T22:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Process network log analysis completed",
+      "body": ""
+    },
+    {
+      "time": "2026-09-17T22:00:00",
+      "from": "field_crew_1",
+      "to": "control_center",
+      "subject": "Readout of Substation North submitted",
+      "body": "",
+      "id": "c-0192"
+    },
+    {
+      "id": "c-0193",
+      "time": "2026-09-18T06:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Deadline status confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0194",
+      "time": "2026-09-18T06:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0195",
+      "time": "2026-09-18T06:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0196",
+      "time": "2026-09-18T06:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0197",
+      "time": "2026-09-18T07:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0198",
+      "time": "2026-09-18T08:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Query raised on the report scope",
+      "body": ""
+    },
+    {
+      "id": "c-0199",
+      "time": "2026-09-18T08:00:00",
+      "from": "information_security_officer",
+      "to": "ot_security",
+      "subject": "Deadline overview for critical-infrastructure notifications updated",
+      "body": ""
+    },
+    {
+      "id": "c-0200",
+      "time": "2026-09-18T08:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0201",
+      "time": "2026-09-18T08:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0202",
+      "time": "2026-09-18T08:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0203",
+      "time": "2026-09-18T08:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0204",
+      "time": "2026-09-18T09:00:00",
+      "from": "field_crew_1",
+      "to": "protection_and_control",
+      "subject": "Readout of telecontrol address table (Substation South) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0205",
+      "time": "2026-09-18T09:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0206",
+      "time": "2026-09-18T10:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Deadline status confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0207",
+      "time": "2026-09-18T10:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Consultation with the shift lead completed",
+      "body": ""
+    },
+    {
+      "id": "c-0208",
+      "time": "2026-09-18T10:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Operations log updated",
+      "body": ""
+    },
+    {
+      "id": "c-0209",
+      "time": "2026-09-18T11:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Reference build reconciled with the vendor update",
+      "body": ""
+    },
+    {
+      "id": "c-0210",
+      "time": "2026-09-18T11:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "No action required according to the current overview",
+      "body": ""
+    },
+    {
+      "id": "c-0211",
+      "time": "2026-09-18T12:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Query raised on the report scope",
+      "body": ""
+    },
+    {
+      "id": "c-0212",
+      "time": "2026-09-18T12:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Incident documentation updated",
+      "body": ""
+    },
+    {
+      "id": "c-0213",
+      "time": "2026-09-18T12:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0214",
+      "time": "2026-09-18T12:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Grid state documented",
+      "body": ""
+    },
+    {
+      "id": "c-0215",
+      "time": "2026-09-18T12:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0216",
+      "time": "2026-09-18T12:00:00",
+      "from": "field_crew_1",
+      "to": "protection_and_control",
+      "subject": "Readout of signaling path (Substation South) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0217",
+      "time": "2026-09-18T14:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Deadline status confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0218",
+      "time": "2026-09-18T14:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Approval granted: Substation South",
+      "body": ""
+    },
+    {
+      "id": "c-0219",
+      "time": "2026-09-18T14:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0220",
+      "time": "2026-09-18T14:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0221",
+      "time": "2026-09-18T14:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0222",
+      "time": "2026-09-18T15:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Test record of the day archived",
+      "body": ""
+    },
+    {
+      "id": "c-0223",
+      "time": "2026-09-18T15:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0224",
+      "time": "2026-09-18T16:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Query raised on the report scope",
+      "body": ""
+    },
+    {
+      "id": "c-0225",
+      "time": "2026-09-18T16:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Capacity reserves in the green",
+      "body": ""
+    },
+    {
+      "id": "c-0226",
+      "time": "2026-09-18T16:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Operations log updated",
+      "body": ""
+    },
+    {
+      "id": "c-0227",
+      "time": "2026-09-18T17:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0228",
+      "time": "2026-09-18T17:00:00",
+      "from": "field_crew_1",
+      "to": "protection_and_control",
+      "subject": "Readout of switching command authorization (Substation Harbor) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0229",
+      "time": "2026-09-18T18:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0230",
+      "time": "2026-09-18T18:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0231",
+      "time": "2026-09-18T20:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Approval granted: Substation Harbor — all three substations verified",
+      "body": ""
+    },
+    {
+      "id": "c-0232",
+      "time": "2026-09-18T20:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Deadline overview for critical-infrastructure notifications updated",
+      "body": ""
+    },
+    {
+      "id": "c-0233",
+      "time": "2026-09-18T20:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0234",
+      "time": "2026-09-18T20:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0235",
+      "time": "2026-09-18T20:00:00",
+      "from": "field_crew_1",
+      "to": "protection_and_control",
+      "subject": "Readout of overcurrent time protection (Substation Harbor) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0236",
+      "time": "2026-09-18T20:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0237",
+      "time": "2026-09-18T21:00:00",
+      "from": "grid_operations",
+      "to": "information_security_officer",
+      "subject": "First interim report: all substations verified and released",
+      "body": ""
+    },
+    {
+      "id": "c-0238",
+      "time": "2026-09-18T21:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0239",
+      "time": "2026-09-18T21:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "time": "2026-09-18T21:00:00",
+      "from": "field_crew_1",
+      "to": "grid_operations",
+      "subject": "Approval requested for Substation South",
+      "body": "",
+      "id": "c-0240"
+    },
+    {
+      "id": "c-0241",
+      "time": "2026-09-18T23:00:00",
+      "from": "information_security_officer",
+      "to": "regulator_tso",
+      "subject": "Interim report: substations completed, secondary substations follow",
+      "body": ""
+    },
+    {
+      "id": "c-0242",
+      "time": "2026-09-18T23:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Interim report received, evidence per secondary substation additionally expected",
+      "body": ""
+    },
+    {
+      "id": "c-0243",
+      "time": "2026-09-18T23:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Reference build reconciled with the vendor update",
+      "body": ""
+    },
+    {
+      "id": "c-0244",
+      "time": "2026-09-21T06:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0245",
+      "time": "2026-09-21T06:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Weekend shift without incident, Group A campaign starts",
+      "body": ""
+    },
+    {
+      "id": "c-0246",
+      "time": "2026-09-21T06:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0247",
+      "time": "2026-09-21T06:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0248",
+      "time": "2026-09-21T06:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Status note for management updated",
+      "body": ""
+    },
+    {
+      "id": "c-0249",
+      "time": "2026-09-21T06:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Balancing group data checked",
+      "body": ""
+    },
+    {
+      "id": "c-0250",
+      "time": "2026-09-21T06:00:00",
+      "from": "metering_point_operations",
+      "to": "energy_data_management",
+      "subject": "Remote meter reading checked",
+      "body": ""
+    },
+    {
+      "id": "c-0251",
+      "time": "2026-09-21T07:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0252",
+      "time": "2026-09-21T07:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0253",
+      "time": "2026-09-21T07:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Understood",
+      "body": ""
+    },
+    {
+      "id": "c-0254",
+      "time": "2026-09-21T08:00:00",
+      "from": "information_security_officer",
+      "to": "ot_security",
+      "subject": "Deadline overview for critical-infrastructure notifications updated",
+      "body": ""
+    },
+    {
+      "id": "c-0255",
+      "time": "2026-09-21T08:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0256",
+      "time": "2026-09-21T08:00:00",
+      "from": "energy_data_management",
+      "to": "information_security_officer",
+      "subject": "Deviation documented and checked",
+      "body": ""
+    },
+    {
+      "id": "c-0257",
+      "time": "2026-09-21T09:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0258",
+      "time": "2026-09-21T09:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Consultation with the shift lead completed",
+      "body": ""
+    },
+    {
+      "id": "c-0259",
+      "time": "2026-09-21T09:00:00",
+      "from": "field_crew_2",
+      "to": "protection_and_control",
+      "subject": "Readout of distance protection (Secondary Substations Group A) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0260",
+      "time": "2026-09-21T09:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Balancing group data checked",
+      "body": ""
+    },
+    {
+      "id": "c-0261",
+      "time": "2026-09-21T09:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Support ticket updated",
+      "body": ""
+    },
+    {
+      "id": "c-0262",
+      "time": "2026-09-21T09:00:00",
+      "from": "metering_point_operations",
+      "to": "energy_data_management",
+      "subject": "Remote meter reading checked",
+      "body": ""
+    },
+    {
+      "id": "c-0263",
+      "time": "2026-09-21T10:00:00",
+      "from": "metering_point_operations",
+      "to": "energy_data_management",
+      "subject": "Please cross-check the balancing group data of the last two weeks",
+      "body": ""
+    },
+    {
+      "id": "c-0264",
+      "time": "2026-09-21T11:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Grid state documented",
+      "body": ""
+    },
+    {
+      "id": "c-0265",
+      "time": "2026-09-21T11:00:00",
+      "from": "it_operations",
+      "to": "control_system_vendor",
+      "subject": "Understood",
+      "body": ""
+    },
+    {
+      "id": "c-0266",
+      "time": "2026-09-21T11:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0267",
+      "time": "2026-09-21T12:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Incident documentation updated",
+      "body": ""
+    },
+    {
+      "id": "c-0268",
+      "time": "2026-09-21T12:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0269",
+      "time": "2026-09-21T12:00:00",
+      "from": "energy_data_management",
+      "to": "information_security_officer",
+      "subject": "Deviation documented and checked",
+      "body": ""
+    },
+    {
+      "id": "c-0270",
+      "time": "2026-09-21T12:00:00",
+      "from": "field_crew_2",
+      "to": "protection_and_control",
+      "subject": "Readout of differential protection (Secondary Substations Group A) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0271",
+      "time": "2026-09-21T12:00:00",
+      "from": "metering_point_operations",
+      "to": "energy_data_management",
+      "subject": "Remote meter reading checked",
+      "body": ""
+    },
+    {
+      "id": "c-0272",
+      "time": "2026-09-21T13:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Capacity reserves in the green",
+      "body": ""
+    },
+    {
+      "id": "c-0273",
+      "time": "2026-09-21T13:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Confirmed, thanks",
+      "body": ""
+    },
+    {
+      "id": "c-0274",
+      "time": "2026-09-21T14:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0275",
+      "time": "2026-09-21T14:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Balancing group data checked",
+      "body": ""
+    },
+    {
+      "id": "c-0276",
+      "time": "2026-09-21T15:00:00",
+      "from": "metering_point_operations",
+      "to": "information_security_officer",
+      "subject": "Remote meter reading normal, no indication of manipulation",
+      "body": ""
+    },
+    {
+      "id": "c-0277",
+      "time": "2026-09-21T15:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0278",
+      "time": "2026-09-21T15:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0279",
+      "time": "2026-09-21T15:00:00",
+      "from": "field_crew_2",
+      "to": "protection_and_control",
+      "subject": "Readout of telecontrol address table (Secondary Substations Group A) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0280",
+      "time": "2026-09-21T15:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Query on the reference build answered",
+      "body": ""
+    },
+    {
+      "id": "c-0281",
+      "time": "2026-09-21T16:00:00",
+      "from": "information_security_officer",
+      "to": "ot_security",
+      "subject": "Status note for management updated",
+      "body": ""
+    },
+    {
+      "id": "c-0282",
+      "time": "2026-09-21T17:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0283",
+      "time": "2026-09-21T17:00:00",
+      "from": "it_operations",
+      "to": "control_system_vendor",
+      "subject": "Acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0284",
+      "time": "2026-09-21T17:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Noted",
+      "body": ""
+    },
+    {
+      "id": "c-0285",
+      "time": "2026-09-21T18:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0286",
+      "time": "2026-09-21T18:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0287",
+      "time": "2026-09-21T18:00:00",
+      "from": "field_crew_2",
+      "to": "protection_and_control",
+      "subject": "Readout of signaling path (Secondary Substations Group A) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0288",
+      "time": "2026-09-21T19:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Consultation with the shift lead completed",
+      "body": ""
+    },
+    {
+      "id": "c-0289",
+      "time": "2026-09-21T19:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Understood",
+      "body": ""
+    },
+    {
+      "id": "c-0290",
+      "time": "2026-09-21T20:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Deadline overview for critical-infrastructure notifications updated",
+      "body": ""
+    },
+    {
+      "id": "c-0291",
+      "time": "2026-09-21T20:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0292",
+      "time": "2026-09-21T21:00:00",
+      "from": "field_crew_2",
+      "to": "protection_and_control",
+      "subject": "Readout of switching command authorization (Secondary Substations Group A) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0293",
+      "time": "2026-09-21T21:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Grid state documented",
+      "body": ""
+    },
+    {
+      "id": "c-0294",
+      "time": "2026-09-21T21:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0295",
+      "time": "2026-09-21T22:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0296",
+      "time": "2026-09-21T23:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Capacity reserves in the green",
+      "body": ""
+    },
+    {
+      "id": "c-0297",
+      "time": "2026-09-21T23:00:00",
+      "from": "it_operations",
+      "to": "control_system_vendor",
+      "subject": "Confirmed, thanks",
+      "body": ""
+    },
+    {
+      "id": "c-0298",
+      "time": "2026-09-21T23:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Confirmed, thanks",
+      "body": ""
+    },
+    {
+      "time": "2026-09-21T23:00:00",
+      "from": "field_crew_2",
+      "to": "control_center",
+      "subject": "Readout of Secondary Substations Group A submitted",
+      "body": "",
+      "id": "c-0299"
+    },
+    {
+      "id": "c-0300",
+      "time": "2026-09-22T06:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0301",
+      "time": "2026-09-22T06:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Night shift normal, Group A campaign continues",
+      "body": ""
+    },
+    {
+      "id": "c-0302",
+      "time": "2026-09-22T06:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0303",
+      "time": "2026-09-22T06:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0304",
+      "time": "2026-09-22T06:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Status note for management updated",
+      "body": ""
+    },
+    {
+      "id": "c-0305",
+      "time": "2026-09-22T06:00:00",
+      "from": "external_ics_forensics",
+      "to": "information_security_officer",
+      "subject": "Interim status of the trace analysis submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0306",
+      "time": "2026-09-22T06:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Balancing group data checked",
+      "body": ""
+    },
+    {
+      "id": "c-0307",
+      "time": "2026-09-22T06:00:00",
+      "from": "metering_point_operations",
+      "to": "energy_data_management",
+      "subject": "Remote meter reading checked",
+      "body": ""
+    },
+    {
+      "id": "c-0308",
+      "time": "2026-09-22T07:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0309",
+      "time": "2026-09-22T07:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0310",
+      "time": "2026-09-22T07:00:00",
+      "from": "field_crew_2",
+      "to": "protection_and_control",
+      "subject": "Readout of signaling path (Secondary Substations Group A) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0311",
+      "time": "2026-09-22T07:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Understood",
+      "body": ""
+    },
+    {
+      "id": "c-0312",
+      "time": "2026-09-22T08:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0313",
+      "time": "2026-09-22T08:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Reference build reconciled with the vendor update",
+      "body": ""
+    },
+    {
+      "id": "c-0314",
+      "time": "2026-09-22T08:00:00",
+      "from": "energy_data_management",
+      "to": "information_security_officer",
+      "subject": "Deviation documented and checked",
+      "body": ""
+    },
+    {
+      "id": "c-0315",
+      "time": "2026-09-22T08:00:00",
+      "from": "external_ics_forensics",
+      "to": "ot_security",
+      "subject": "Additional logs requested",
+      "body": ""
+    },
+    {
+      "id": "c-0316",
+      "time": "2026-09-22T08:00:00",
+      "from": "metering_point_operations",
+      "to": "energy_data_management",
+      "subject": "Remote meter reading checked",
+      "body": ""
+    },
+    {
+      "id": "c-0317",
+      "time": "2026-09-22T09:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0318",
+      "time": "2026-09-22T09:00:00",
+      "from": "external_ics_forensics",
+      "to": "information_security_officer",
+      "subject": "Interim status of the trace analysis submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0319",
+      "time": "2026-09-22T10:00:00",
+      "from": "field_crew_2",
+      "to": "protection_and_control",
+      "subject": "Readout of switching command authorization (Secondary Substations Group A) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0320",
+      "time": "2026-09-22T10:00:00",
+      "from": "external_ics_forensics",
+      "to": "ot_security",
+      "subject": "Access traces also detectable in meter data management",
+      "body": ""
+    },
+    {
+      "id": "c-0321",
+      "time": "2026-09-22T10:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Test record of the day archived",
+      "body": ""
+    },
+    {
+      "id": "c-0322",
+      "time": "2026-09-22T10:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0323",
+      "time": "2026-09-22T10:00:00",
+      "from": "energy_data_management",
+      "to": "external_ics_forensics",
+      "subject": "Suspicious deviations found in the measurement series of one subgroup",
+      "body": ""
+    },
+    {
+      "id": "c-0324",
+      "time": "2026-09-22T10:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0325",
+      "time": "2026-09-22T10:00:00",
+      "from": "metering_point_operations",
+      "to": "energy_data_management",
+      "subject": "Remote meter reading checked",
+      "body": ""
+    },
+    {
+      "id": "c-0326",
+      "time": "2026-09-22T11:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Operations log updated",
+      "body": ""
+    },
+    {
+      "id": "c-0327",
+      "time": "2026-09-22T11:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0328",
+      "time": "2026-09-22T12:00:00",
+      "from": "external_ics_forensics",
+      "to": "information_security_officer",
+      "subject": "Scope is growing: meter data management affected as well",
+      "body": ""
+    },
+    {
+      "id": "c-0329",
+      "time": "2026-09-22T12:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Second finding — the incident is not limited to the field level",
+      "body": ""
+    },
+    {
+      "id": "c-0330",
+      "time": "2026-09-22T12:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0331",
+      "time": "2026-09-22T12:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0332",
+      "time": "2026-09-22T12:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "No action required according to the current overview",
+      "body": ""
+    },
+    {
+      "id": "c-0333",
+      "time": "2026-09-22T12:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Confirmed, thanks",
+      "body": ""
+    },
+    {
+      "id": "c-0334",
+      "time": "2026-09-22T13:00:00",
+      "from": "information_security_officer",
+      "to": "regulator_tso",
+      "subject": "Follow-up notification: extended scope, meter data management affected",
+      "body": ""
+    },
+    {
+      "id": "c-0335",
+      "time": "2026-09-22T13:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0336",
+      "time": "2026-09-22T13:00:00",
+      "from": "field_crew_2",
+      "to": "protection_and_control",
+      "subject": "Readout of overcurrent time protection (Secondary Substations Group A) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0337",
+      "time": "2026-09-22T13:00:00",
+      "from": "external_ics_forensics",
+      "to": "ot_security",
+      "subject": "Additional logs requested",
+      "body": ""
+    },
+    {
+      "id": "c-0338",
+      "time": "2026-09-22T14:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0339",
+      "time": "2026-09-22T14:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0340",
+      "time": "2026-09-22T14:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Noted",
+      "body": ""
+    },
+    {
+      "id": "c-0341",
+      "time": "2026-09-22T15:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Approval granted: Secondary Substations Group A",
+      "body": ""
+    },
+    {
+      "id": "c-0342",
+      "time": "2026-09-22T15:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0343",
+      "time": "2026-09-22T15:00:00",
+      "from": "external_ics_forensics",
+      "to": "ot_security",
+      "subject": "Additional logs requested",
+      "body": ""
+    },
+    {
+      "id": "c-0344",
+      "time": "2026-09-22T15:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Understood",
+      "body": ""
+    },
+    {
+      "time": "2026-09-22T15:00:00",
+      "from": "field_crew_2",
+      "to": "grid_operations",
+      "subject": "Approval requested for Secondary Substations Group A",
+      "body": "",
+      "id": "c-0345"
+    },
+    {
+      "id": "c-0346",
+      "time": "2026-09-22T16:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Reference build reconciled with the vendor update",
+      "body": ""
+    },
+    {
+      "id": "c-0347",
+      "time": "2026-09-22T16:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Balancing group data checked",
+      "body": ""
+    },
+    {
+      "id": "c-0348",
+      "time": "2026-09-22T16:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0349",
+      "time": "2026-09-22T17:00:00",
+      "from": "external_ics_forensics",
+      "to": "protection_and_control",
+      "subject": "Extent of manipulation in meter data management delimited, cleanup possible",
+      "body": ""
+    },
+    {
+      "id": "c-0350",
+      "time": "2026-09-22T17:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Operations log updated",
+      "body": ""
+    },
+    {
+      "id": "c-0351",
+      "time": "2026-09-22T18:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0352",
+      "time": "2026-09-22T18:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Test record of the day archived",
+      "body": ""
+    },
+    {
+      "id": "c-0353",
+      "time": "2026-09-22T18:00:00",
+      "from": "energy_data_management",
+      "to": "information_security_officer",
+      "subject": "Deviation documented and checked",
+      "body": ""
+    },
+    {
+      "id": "c-0354",
+      "time": "2026-09-22T18:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "No action required according to the current overview",
+      "body": ""
+    },
+    {
+      "id": "c-0355",
+      "time": "2026-09-22T19:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Confirmed, thanks",
+      "body": ""
+    },
+    {
+      "id": "c-0356",
+      "time": "2026-09-22T20:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0357",
+      "time": "2026-09-22T20:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0358",
+      "time": "2026-09-22T20:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Balancing group data checked",
+      "body": ""
+    },
+    {
+      "id": "c-0359",
+      "time": "2026-09-22T21:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0360",
+      "time": "2026-09-22T22:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0361",
+      "time": "2026-09-22T22:00:00",
+      "from": "energy_data_management",
+      "to": "information_security_officer",
+      "subject": "Deviation documented and checked",
+      "body": ""
+    },
+    {
+      "id": "c-0362",
+      "time": "2026-09-23T06:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0363",
+      "time": "2026-09-23T06:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Group B campaign starts, Group A fully released",
+      "body": ""
+    },
+    {
+      "id": "c-0364",
+      "time": "2026-09-23T06:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0365",
+      "time": "2026-09-23T06:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0366",
+      "time": "2026-09-23T06:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Status note for management updated",
+      "body": ""
+    },
+    {
+      "id": "c-0367",
+      "time": "2026-09-23T06:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Balancing group data checked",
+      "body": ""
+    },
+    {
+      "id": "c-0368",
+      "time": "2026-09-23T06:00:00",
+      "from": "metering_point_operations",
+      "to": "energy_data_management",
+      "subject": "Remote meter reading checked",
+      "body": ""
+    },
+    {
+      "id": "c-0369",
+      "time": "2026-09-23T07:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0370",
+      "time": "2026-09-23T07:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0371",
+      "time": "2026-09-23T07:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Understood",
+      "body": ""
+    },
+    {
+      "id": "c-0372",
+      "time": "2026-09-23T08:00:00",
+      "from": "information_security_officer",
+      "to": "ot_security",
+      "subject": "Deadline overview for critical-infrastructure notifications updated",
+      "body": ""
+    },
+    {
+      "id": "c-0373",
+      "time": "2026-09-23T08:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0374",
+      "time": "2026-09-23T08:00:00",
+      "from": "energy_data_management",
+      "to": "information_security_officer",
+      "subject": "Deviation documented and checked",
+      "body": ""
+    },
+    {
+      "id": "c-0375",
+      "time": "2026-09-23T09:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0376",
+      "time": "2026-09-23T09:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Consultation with the shift lead completed",
+      "body": ""
+    },
+    {
+      "id": "c-0377",
+      "time": "2026-09-23T09:00:00",
+      "from": "field_crew_3",
+      "to": "protection_and_control",
+      "subject": "Readout of distance protection (Secondary Substations Group B) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0378",
+      "time": "2026-09-23T09:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0379",
+      "time": "2026-09-23T09:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Balancing group data checked",
+      "body": ""
+    },
+    {
+      "id": "c-0380",
+      "time": "2026-09-23T09:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Support ticket updated",
+      "body": ""
+    },
+    {
+      "id": "c-0381",
+      "time": "2026-09-23T10:00:00",
+      "from": "energy_data_management",
+      "to": "information_security_officer",
+      "subject": "Deviation documented and checked",
+      "body": ""
+    },
+    {
+      "id": "c-0382",
+      "time": "2026-09-23T10:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0383",
+      "time": "2026-09-23T10:00:00",
+      "from": "metering_point_operations",
+      "to": "energy_data_management",
+      "subject": "Remote meter reading checked",
+      "body": ""
+    },
+    {
+      "id": "c-0384",
+      "time": "2026-09-23T11:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Grid state documented",
+      "body": ""
+    },
+    {
+      "id": "c-0385",
+      "time": "2026-09-23T11:00:00",
+      "from": "it_operations",
+      "to": "control_system_vendor",
+      "subject": "Understood",
+      "body": ""
+    },
+    {
+      "id": "c-0386",
+      "time": "2026-09-23T11:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0387",
+      "time": "2026-09-23T12:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Incident documentation updated",
+      "body": ""
+    },
+    {
+      "id": "c-0388",
+      "time": "2026-09-23T12:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0389",
+      "time": "2026-09-23T12:00:00",
+      "from": "field_crew_3",
+      "to": "protection_and_control",
+      "subject": "Readout of differential protection (Secondary Substations Group B) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0390",
+      "time": "2026-09-23T12:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Balancing group data checked",
+      "body": ""
+    },
+    {
+      "id": "c-0391",
+      "time": "2026-09-23T12:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "No action required according to the current overview",
+      "body": ""
+    },
+    {
+      "id": "c-0392",
+      "time": "2026-09-23T13:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Capacity reserves in the green",
+      "body": ""
+    },
+    {
+      "id": "c-0393",
+      "time": "2026-09-23T13:00:00",
+      "from": "metering_point_operations",
+      "to": "energy_data_management",
+      "subject": "Confirmed, thanks",
+      "body": ""
+    },
+    {
+      "id": "c-0394",
+      "time": "2026-09-23T14:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Reference build reconciled with the vendor update",
+      "body": ""
+    },
+    {
+      "id": "c-0395",
+      "time": "2026-09-23T14:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0396",
+      "time": "2026-09-23T14:00:00",
+      "from": "metering_point_operations",
+      "to": "energy_data_management",
+      "subject": "Remote meter reading checked",
+      "body": ""
+    },
+    {
+      "id": "c-0397",
+      "time": "2026-09-23T15:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0398",
+      "time": "2026-09-23T15:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0399",
+      "time": "2026-09-23T15:00:00",
+      "from": "field_crew_3",
+      "to": "protection_and_control",
+      "subject": "Readout of telecontrol address table (Secondary Substations Group B) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0400",
+      "time": "2026-09-23T15:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Query on the reference build answered",
+      "body": ""
+    },
+    {
+      "id": "c-0401",
+      "time": "2026-09-23T15:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Confirmed, thanks",
+      "body": ""
+    },
+    {
+      "id": "c-0402",
+      "time": "2026-09-23T16:00:00",
+      "from": "information_security_officer",
+      "to": "ot_security",
+      "subject": "Status note for management updated",
+      "body": ""
+    },
+    {
+      "id": "c-0403",
+      "time": "2026-09-23T16:00:00",
+      "from": "protection_and_control",
+      "to": "control_system_vendor",
+      "subject": "Firmware update completed on all protection relays",
+      "body": ""
+    },
+    {
+      "id": "c-0404",
+      "time": "2026-09-23T17:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0405",
+      "time": "2026-09-23T17:00:00",
+      "from": "it_operations",
+      "to": "control_system_vendor",
+      "subject": "Acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0406",
+      "time": "2026-09-23T18:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0407",
+      "time": "2026-09-23T18:00:00",
+      "from": "field_crew_3",
+      "to": "protection_and_control",
+      "subject": "Readout of signaling path (Secondary Substations Group B) submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0408",
+      "time": "2026-09-23T19:00:00",
+      "from": "energy_data_management",
+      "to": "information_security_officer",
+      "subject": "Balancing group data fully validated and corrected",
+      "body": ""
+    },
+    {
+      "id": "c-0409",
+      "time": "2026-09-23T19:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Consultation with the shift lead completed",
+      "body": ""
+    },
+    {
+      "id": "c-0410",
+      "time": "2026-09-23T20:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Approval granted: Secondary Substations Group B",
+      "body": ""
+    },
+    {
+      "id": "c-0411",
+      "time": "2026-09-23T20:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Deadline overview for critical-infrastructure notifications updated",
+      "body": ""
+    },
+    {
+      "id": "c-0412",
+      "time": "2026-09-23T20:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0413",
+      "time": "2026-09-23T20:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Noted",
+      "body": ""
+    },
+    {
+      "time": "2026-09-23T20:00:00",
+      "from": "field_crew_3",
+      "to": "control_center",
+      "subject": "Readout of Secondary Substations Group B submitted",
+      "body": "",
+      "id": "c-0414"
+    },
+    {
+      "id": "c-0415",
+      "time": "2026-09-23T21:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "time": "2026-09-23T21:00:00",
+      "from": "field_crew_3",
+      "to": "protection_and_control",
+      "subject": "Protection relay fleet Group B: findings documented",
+      "body": "",
+      "id": "c-0416"
+    },
+    {
+      "time": "2026-09-23T22:00:00",
+      "from": "field_crew_3",
+      "to": "grid_operations",
+      "subject": "Approval requested for Secondary Substations Group B",
+      "body": "",
+      "id": "c-0417"
+    },
+    {
+      "id": "c-0418",
+      "time": "2026-09-23T23:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Grid state documented",
+      "body": ""
+    },
+    {
+      "id": "c-0419",
+      "time": "2026-09-23T23:00:00",
+      "from": "it_operations",
+      "to": "control_system_vendor",
+      "subject": "Confirmed, thanks",
+      "body": ""
+    },
+    {
+      "id": "c-0420",
+      "time": "2026-09-23T23:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Understood",
+      "body": ""
+    },
+    {
+      "id": "c-0421",
+      "time": "2026-09-24T06:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0422",
+      "time": "2026-09-24T06:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "All field sites verified, telecontrol returns to service today",
+      "body": ""
+    },
+    {
+      "id": "c-0423",
+      "time": "2026-09-24T06:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0424",
+      "time": "2026-09-24T06:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0425",
+      "time": "2026-09-24T06:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Status note for management updated",
+      "body": ""
+    },
+    {
+      "id": "c-0426",
+      "time": "2026-09-24T06:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Balancing group data checked",
+      "body": ""
+    },
+    {
+      "id": "c-0427",
+      "time": "2026-09-24T06:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Query on the reference build answered",
+      "body": ""
+    },
+    {
+      "id": "c-0428",
+      "time": "2026-09-24T07:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0429",
+      "time": "2026-09-24T07:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0430",
+      "time": "2026-09-24T08:00:00",
+      "from": "information_security_officer",
+      "to": "ot_security",
+      "subject": "Deadline overview for critical-infrastructure notifications updated",
+      "body": ""
+    },
+    {
+      "id": "c-0431",
+      "time": "2026-09-24T08:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0432",
+      "time": "2026-09-24T08:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0433",
+      "time": "2026-09-24T08:00:00",
+      "from": "energy_data_management",
+      "to": "information_security_officer",
+      "subject": "Deviation documented and checked",
+      "body": ""
+    },
+    {
+      "id": "c-0434",
+      "time": "2026-09-24T08:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Support ticket updated",
+      "body": ""
+    },
+    {
+      "id": "c-0435",
+      "time": "2026-09-24T09:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Consultation with the shift lead completed",
+      "body": ""
+    },
+    {
+      "id": "c-0436",
+      "time": "2026-09-24T09:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0437",
+      "time": "2026-09-24T10:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Reference build reconciled with the vendor update",
+      "body": ""
+    },
+    {
+      "id": "c-0438",
+      "time": "2026-09-24T10:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0439",
+      "time": "2026-09-24T10:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Consultation with the regulator prepared",
+      "body": ""
+    },
+    {
+      "id": "c-0440",
+      "time": "2026-09-24T10:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Process network log analysis completed",
+      "body": ""
+    },
+    {
+      "id": "c-0441",
+      "time": "2026-09-24T10:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Balancing group data checked",
+      "body": ""
+    },
+    {
+      "id": "c-0442",
+      "time": "2026-09-24T10:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0443",
+      "time": "2026-09-24T11:00:00",
+      "from": "it_operations",
+      "to": "protection_and_control",
+      "subject": "Primary system is being rebuilt on the basis of the backup control system",
+      "body": ""
+    },
+    {
+      "id": "c-0444",
+      "time": "2026-09-24T11:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Operations log updated",
+      "body": ""
+    },
+    {
+      "id": "c-0445",
+      "time": "2026-09-24T12:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "Incident documentation updated",
+      "body": ""
+    },
+    {
+      "id": "c-0446",
+      "time": "2026-09-24T12:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Substation North back under telecontrol",
+      "body": ""
+    },
+    {
+      "id": "c-0447",
+      "time": "2026-09-24T12:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0448",
+      "time": "2026-09-24T12:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Test record of the day archived",
+      "body": ""
+    },
+    {
+      "id": "c-0449",
+      "time": "2026-09-24T12:00:00",
+      "from": "energy_data_management",
+      "to": "information_security_officer",
+      "subject": "Deviation documented and checked",
+      "body": ""
+    },
+    {
+      "id": "c-0450",
+      "time": "2026-09-24T12:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "No action required according to the current overview",
+      "body": ""
+    },
+    {
+      "id": "c-0451",
+      "time": "2026-09-24T12:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Query on the reference build answered",
+      "body": ""
+    },
+    {
+      "id": "c-0452",
+      "time": "2026-09-24T13:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Substation South back under telecontrol",
+      "body": ""
+    },
+    {
+      "id": "c-0453",
+      "time": "2026-09-24T14:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0454",
+      "time": "2026-09-24T14:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Substation Harbor and Secondary Substations Group A back under telecontrol",
+      "body": ""
+    },
+    {
+      "id": "c-0455",
+      "time": "2026-09-24T14:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0456",
+      "time": "2026-09-24T14:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0457",
+      "time": "2026-09-24T14:00:00",
+      "from": "energy_data_management",
+      "to": "metering_point_operations",
+      "subject": "Balancing group data checked",
+      "body": ""
+    },
+    {
+      "id": "c-0458",
+      "time": "2026-09-24T14:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Support ticket updated",
+      "body": ""
+    },
+    {
+      "id": "c-0459",
+      "time": "2026-09-24T15:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0460",
+      "time": "2026-09-24T15:00:00",
+      "from": "metering_point_operations",
+      "to": "energy_data_management",
+      "subject": "Confirmed, thanks",
+      "body": ""
+    },
+    {
+      "id": "c-0461",
+      "time": "2026-09-24T16:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0462",
+      "time": "2026-09-24T16:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Telecontrol fully restored, manual operation ended",
+      "body": ""
+    },
+    {
+      "id": "c-0463",
+      "time": "2026-09-24T16:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0464",
+      "time": "2026-09-24T16:00:00",
+      "from": "energy_data_management",
+      "to": "information_security_officer",
+      "subject": "Deviation documented and checked",
+      "body": ""
+    },
+    {
+      "id": "c-0465",
+      "time": "2026-09-24T16:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Consultation with the regulator prepared",
+      "body": ""
+    },
+    {
+      "id": "c-0466",
+      "time": "2026-09-24T16:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "time": "2026-09-24T16:00:00",
+      "from": "external_ics_forensics",
+      "to": "information_security_officer",
+      "subject": "Scope report in preparation, completion follows shortly",
+      "body": "",
+      "id": "c-0467"
+    },
+    {
+      "id": "c-0468",
+      "time": "2026-09-24T18:00:00",
+      "from": "information_security_officer",
+      "to": "technical_management",
+      "subject": "All sites verified, evidence compilation starts tomorrow",
+      "body": ""
+    },
+    {
+      "id": "c-0469",
+      "time": "2026-09-24T18:00:00",
+      "from": "it_operations",
+      "to": "information_security_officer",
+      "subject": "Primary grid control system rebuilt and verified",
+      "body": ""
+    },
+    {
+      "id": "c-0470",
+      "time": "2026-09-24T18:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0471",
+      "time": "2026-09-24T18:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Reference build reconciled with the vendor update",
+      "body": ""
+    },
+    {
+      "id": "c-0472",
+      "time": "2026-09-24T18:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "No action required according to the current overview",
+      "body": ""
+    },
+    {
+      "id": "c-0473",
+      "time": "2026-09-24T20:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0474",
+      "time": "2026-09-24T20:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Test record of the day archived",
+      "body": ""
+    },
+    {
+      "id": "c-0475",
+      "time": "2026-09-24T20:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0476",
+      "time": "2026-09-24T20:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Support ticket updated",
+      "body": ""
+    },
+    {
+      "id": "c-0477",
+      "time": "2026-09-24T22:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0478",
+      "time": "2026-09-24T22:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0479",
+      "time": "2026-09-24T22:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Consultation with the regulator prepared",
+      "body": ""
+    },
+    {
+      "id": "c-0480",
+      "time": "2026-09-24T22:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0481",
+      "time": "2026-09-24T23:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Grid state documented",
+      "body": ""
+    },
+    {
+      "id": "c-0482",
+      "time": "2026-09-25T06:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Deadline status confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0483",
+      "time": "2026-09-25T06:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0484",
+      "time": "2026-09-25T06:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Last night shift in the manual operation wind-down, all normal",
+      "body": ""
+    },
+    {
+      "id": "c-0485",
+      "time": "2026-09-25T06:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0486",
+      "time": "2026-09-25T06:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0487",
+      "time": "2026-09-25T06:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Query on the reference build answered",
+      "body": ""
+    },
+    {
+      "id": "c-0488",
+      "time": "2026-09-25T07:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Query raised on the report scope",
+      "body": ""
+    },
+    {
+      "id": "c-0489",
+      "time": "2026-09-25T07:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0490",
+      "time": "2026-09-25T07:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0491",
+      "time": "2026-09-25T07:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0492",
+      "time": "2026-09-25T08:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Deadline status confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0493",
+      "time": "2026-09-25T08:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "New remote access procedure with four-eyes approval provided",
+      "body": ""
+    },
+    {
+      "id": "c-0494",
+      "time": "2026-09-25T08:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Monitoring report submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0495",
+      "time": "2026-09-25T08:00:00",
+      "from": "external_ics_forensics",
+      "to": "ot_security",
+      "subject": "Additional logs requested",
+      "body": ""
+    },
+    {
+      "id": "c-0496",
+      "time": "2026-09-25T09:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Query raised on the report scope",
+      "body": ""
+    },
+    {
+      "id": "c-0497",
+      "time": "2026-09-25T09:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Consultation with the shift lead completed",
+      "body": ""
+    },
+    {
+      "id": "c-0498",
+      "time": "2026-09-25T09:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Shift handover documented",
+      "body": ""
+    },
+    {
+      "id": "c-0499",
+      "time": "2026-09-25T09:00:00",
+      "from": "ot_security",
+      "to": "external_ics_forensics",
+      "subject": "Understood",
+      "body": ""
+    },
+    {
+      "id": "c-0500",
+      "time": "2026-09-25T10:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Deadline status confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0501",
+      "time": "2026-09-25T10:00:00",
+      "from": "it_operations",
+      "to": "information_security_officer",
+      "subject": "Vendor remote access released again with the new procedure",
+      "body": ""
+    },
+    {
+      "id": "c-0502",
+      "time": "2026-09-25T10:00:00",
+      "from": "ot_security",
+      "to": "information_security_officer",
+      "subject": "Engineering workstation verified and released again",
+      "body": ""
+    },
+    {
+      "id": "c-0503",
+      "time": "2026-09-25T10:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0504",
+      "time": "2026-09-25T10:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Reference build reconciled with the vendor update",
+      "body": ""
+    },
+    {
+      "id": "c-0505",
+      "time": "2026-09-25T10:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0506",
+      "time": "2026-09-25T10:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Support ticket updated",
+      "body": ""
+    },
+    {
+      "id": "c-0507",
+      "time": "2026-09-25T11:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Query raised on the report scope",
+      "body": ""
+    },
+    {
+      "id": "c-0508",
+      "time": "2026-09-25T11:00:00",
+      "from": "information_security_officer",
+      "to": "ot_security",
+      "subject": "Deadline overview for critical-infrastructure notifications updated",
+      "body": ""
+    },
+    {
+      "id": "c-0509",
+      "time": "2026-09-25T11:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0510",
+      "time": "2026-09-25T11:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Grid state documented",
+      "body": ""
+    },
+    {
+      "id": "c-0511",
+      "time": "2026-09-25T11:00:00",
+      "from": "control_center",
+      "to": "grid_operations",
+      "subject": "Operations log updated",
+      "body": ""
+    },
+    {
+      "id": "c-0512",
+      "time": "2026-09-25T12:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0513",
+      "time": "2026-09-25T12:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "No action required according to the current overview",
+      "body": ""
+    },
+    {
+      "id": "c-0514",
+      "time": "2026-09-25T12:00:00",
+      "from": "external_ics_forensics",
+      "to": "ot_security",
+      "subject": "Additional logs requested",
+      "body": ""
+    },
+    {
+      "id": "c-0515",
+      "time": "2026-09-25T13:00:00",
+      "from": "information_security_officer",
+      "to": "regulator_tso",
+      "subject": "Final evidence: all 20 systems verified or reset to reference build",
+      "body": ""
+    },
+    {
+      "id": "c-0516",
+      "time": "2026-09-25T13:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Capacity reserves in the green",
+      "body": ""
+    },
+    {
+      "id": "c-0517",
+      "time": "2026-09-25T14:00:00",
+      "from": "regulator_tso",
+      "to": "information_security_officer",
+      "subject": "Evidence checked, conditions lifted with immediate effect",
+      "body": ""
+    },
+    {
+      "id": "c-0518",
+      "time": "2026-09-25T14:00:00",
+      "from": "technical_management",
+      "to": "regulator_tso",
+      "subject": "Thanks for the approval, final report follows shortly",
+      "body": ""
+    },
+    {
+      "id": "c-0519",
+      "time": "2026-09-25T14:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Test record of the day archived",
+      "body": ""
+    },
+    {
+      "id": "c-0520",
+      "time": "2026-09-25T14:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Query on the reference build answered",
+      "body": ""
+    },
+    {
+      "id": "c-0521",
+      "time": "2026-09-25T15:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Query raised on the situation picture",
+      "body": ""
+    },
+    {
+      "id": "c-0522",
+      "time": "2026-09-25T15:00:00",
+      "from": "ot_security",
+      "to": "external_ics_forensics",
+      "subject": "Acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0523",
+      "time": "2026-09-25T16:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Load flow assessment normal",
+      "body": ""
+    },
+    {
+      "id": "c-0524",
+      "time": "2026-09-25T16:00:00",
+      "from": "control_system_vendor",
+      "to": "protection_and_control",
+      "subject": "Support ticket updated",
+      "body": ""
+    },
+    {
+      "id": "c-0525",
+      "time": "2026-09-25T16:00:00",
+      "from": "external_ics_forensics",
+      "to": "ot_security",
+      "subject": "Additional logs requested",
+      "body": ""
+    },
+    {
+      "id": "c-0526",
+      "time": "2026-09-25T17:00:00",
+      "from": "technical_management",
+      "to": "regulator_tso",
+      "subject": "Final report including lessons learned submitted",
+      "body": ""
+    },
+    {
+      "id": "c-0527",
+      "time": "2026-09-25T17:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    },
+    {
+      "id": "c-0528",
+      "time": "2026-09-25T17:00:00",
+      "from": "ot_security",
+      "to": "external_ics_forensics",
+      "subject": "Confirmed, thanks",
+      "body": ""
+    },
+    {
+      "id": "c-0529",
+      "time": "2026-09-25T18:00:00",
+      "from": "technical_management",
+      "to": "information_security_officer",
+      "subject": "Decision documented",
+      "body": ""
+    },
+    {
+      "id": "c-0530",
+      "time": "2026-09-25T18:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Operations management: no deviations",
+      "body": ""
+    },
+    {
+      "id": "c-0531",
+      "time": "2026-09-25T18:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Firmware compatibility confirmed",
+      "body": ""
+    },
+    {
+      "id": "c-0532",
+      "time": "2026-09-25T19:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Field crew feedback checked and acknowledged",
+      "body": ""
+    },
+    {
+      "id": "c-0533",
+      "time": "2026-09-25T19:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "No action required according to the current overview",
+      "body": ""
+    },
+    {
+      "id": "c-0534",
+      "time": "2026-09-25T20:00:00",
+      "from": "grid_operations",
+      "to": "protection_and_control",
+      "subject": "Consultation with the shift lead completed",
+      "body": ""
+    },
+    {
+      "id": "c-0535",
+      "time": "2026-09-25T22:00:00",
+      "from": "grid_operations",
+      "to": "control_center",
+      "subject": "Grid state documented",
+      "body": ""
+    },
+    {
+      "id": "c-0536",
+      "time": "2026-09-25T22:00:00",
+      "from": "control_system_vendor",
+      "to": "it_operations",
+      "subject": "Support ticket updated",
+      "body": ""
+    },
+    {
+      "id": "c-0537",
+      "time": "2026-09-25T23:00:00",
+      "from": "protection_and_control",
+      "to": "grid_operations",
+      "subject": "Parameter comparison for today's feedback completed",
+      "body": ""
+    },
+    {
+      "id": "c-0538",
+      "time": "2026-09-25T23:00:00",
+      "from": "control_center",
+      "to": "protection_and_control",
+      "subject": "Query on open switching operations answered",
+      "body": ""
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Operating system
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Node
+node_modules/
+
+# Nothing from the thesis project itself belongs here
+*.tex
+*.bib
+*.pdf
+*.docx

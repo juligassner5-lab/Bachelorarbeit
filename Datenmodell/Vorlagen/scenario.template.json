@@ -1,0 +1,119 @@
+{
+  "_note": "BLANK FORM for the configuration of an exercise. Copy it, rename it to scenario.json, replace the placeholders. Every list holds exactly one invented sample record — none of it comes from a real exercise. Rules: ../Schema/scenario.schema.json.",
+  "exercise": {
+    "id": "exercise-1",
+    "name": "Name of the exercise",
+    "conducted_at": "2026-01-01T09:00:00+01:00"
+  },
+  "time_model": {
+    "_note": "tick_minutes is the grid width. phases are the working windows; narrative_end is exclusive. business_day separately defines which time of day counts as working time for durations and daily rates.",
+    "tick_minutes": 30,
+    "compression_factor": 10,
+    "min_event_gap_minutes": 30,
+    "playback_ms_per_tick": 1000,
+    "business_day": {
+      "start": "08:00",
+      "end": "17:00"
+    },
+    "phases": [
+      {
+        "label": "Day 1",
+        "narrative_start": "2026-01-05T08:00:00",
+        "narrative_end": "2026-01-05T17:00:00",
+        "real_start": "2026-01-01T09:00:00+01:00",
+        "briefing": "Text of the briefing mail for this phase."
+      }
+    ]
+  },
+  "control_ids": {
+    "_note": "Identifier of the exercise control. It is not an actor and appears in no visualization. It receives both task reports and the infrastructure injects.",
+    "facilitator": "facilitator"
+  },
+  "actors": [
+    {
+      "_note": "order controls the reading order (aspects 1 and 2), color is optional — without it the dashboard assigns a palette color.",
+      "id": "role-1",
+      "name": "Name of the role",
+      "address": "role-1@exercise.local",
+      "order": 1,
+      "color": "#4f46e5"
+    },
+    {
+      "_note": "Second sample role so that the example message in communication.template.json has a recipient. Deliberately without color: without it the dashboard assigns a palette color by position.",
+      "id": "role-2",
+      "name": "Name of a further role",
+      "address": "role-2@exercise.local",
+      "order": 2
+    }
+  ],
+  "components": [
+    {
+      "_note": "depends_on names the components this one depends on. From that the dashboard computes the layers and arrows in aspect 4.",
+      "id": "system-1",
+      "name": "Name of the system",
+      "address": "system-1@exercise.local",
+      "initial_state": "available",
+      "depends_on": []
+    }
+  ],
+  "vocabulary": {
+    "_note": "category determines the traffic-light color: ok, warning or critical. Every state used in the data must be listed here.",
+    "component_states": [
+      {
+        "name": "available",
+        "category": "ok"
+      },
+      {
+        "name": "limited",
+        "category": "warning"
+      },
+      {
+        "name": "failed",
+        "category": "critical"
+      }
+    ]
+  },
+  "metrics": [
+    {
+      "_note": "Binds a metric to events through selectors. pick: first, last or count — with count, end is omitted.",
+      "id": "metric-1",
+      "label": "Label of the metric",
+      "unit": "h",
+      "start": {
+        "source": "tasks",
+        "where": {
+          "task": "Name of an activity",
+          "event": "start"
+        },
+        "pick": "first"
+      },
+      "end": {
+        "source": "tasks",
+        "where": {
+          "task": "Name of an activity",
+          "event": "end"
+        },
+        "pick": "first"
+      }
+    }
+  ],
+  "cost_categories": [
+    {
+      "_note": "For each category aspect 5 automatically creates a total tile, and a grand total on top of that when there is more than one.",
+      "id": "category-1",
+      "label": "Label of the category"
+    }
+  ],
+  "costs": [
+    {
+      "_note": "Rates instead of fixed amounts; the amount follows from rate × duration of the referenced metric. span.metric must not point at a count metric.",
+      "id": "item-1",
+      "label": "Label of the cost item",
+      "category": "category-1",
+      "rate_per_hour": 100,
+      "span": {
+        "metric": "metric-1"
+      }
+    }
+  ]
+}

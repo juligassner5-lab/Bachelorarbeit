@@ -1,0 +1,1589 @@
+{
+  "exercise": "weserland-netz-run-1",
+  "events": [
+    {
+      "id": "t-0001",
+      "time": "2026-09-14T06:00:00",
+      "from": "grid_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking grid state"
+    },
+    {
+      "id": "t-0002",
+      "time": "2026-09-14T07:00:00",
+      "from": "ot_security",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Assessing anomaly"
+    },
+    {
+      "time": "2026-09-14T08:00:00",
+      "from": "grid_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking grid state",
+      "id": "t-0003"
+    },
+    {
+      "id": "t-0004",
+      "time": "2026-09-14T09:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Analyzing vendor remote access"
+    },
+    {
+      "time": "2026-09-14T10:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Coordinating internal reporting paths",
+      "id": "t-0005"
+    },
+    {
+      "id": "t-0006",
+      "time": "2026-09-14T11:00:00",
+      "from": "ot_security",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Assessing anomaly"
+    },
+    {
+      "time": "2026-09-14T11:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Coordinating internal reporting paths",
+      "id": "t-0007"
+    },
+    {
+      "time": "2026-09-14T12:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Securing access logs",
+      "id": "t-0008"
+    },
+    {
+      "id": "t-0009",
+      "time": "2026-09-14T13:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Documenting initial assessment"
+    },
+    {
+      "time": "2026-09-14T14:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Securing access logs",
+      "id": "t-0010"
+    },
+    {
+      "id": "t-0011",
+      "time": "2026-09-14T16:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Analyzing vendor remote access"
+    },
+    {
+      "id": "t-0012",
+      "time": "2026-09-14T17:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Documenting initial assessment"
+    },
+    {
+      "id": "t-0013",
+      "time": "2026-09-14T18:00:00",
+      "from": "ot_security",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Running extended log analysis"
+    },
+    {
+      "time": "2026-09-14T20:00:00",
+      "from": "ot_security",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Narrowing down affected systems",
+      "id": "t-0014"
+    },
+    {
+      "time": "2026-09-14T21:00:00",
+      "from": "ot_security",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Narrowing down affected systems",
+      "id": "t-0015"
+    },
+    {
+      "id": "t-0016",
+      "time": "2026-09-15T06:00:00",
+      "from": "external_ics_forensics",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Reviewing logs"
+    },
+    {
+      "id": "t-0017",
+      "time": "2026-09-15T08:00:00",
+      "from": "ot_security",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Running extended log analysis"
+    },
+    {
+      "id": "t-0018",
+      "time": "2026-09-15T09:00:00",
+      "from": "external_ics_forensics",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Reviewing logs"
+    },
+    {
+      "id": "t-0019",
+      "time": "2026-09-15T10:00:00",
+      "from": "external_ics_forensics",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Comparing parameter sets against the reference"
+    },
+    {
+      "id": "t-0020",
+      "time": "2026-09-15T10:00:00",
+      "from": "protection_and_control",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Compiling the reference build"
+    },
+    {
+      "time": "2026-09-15T10:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Preparing regulatory notification",
+      "id": "t-0021"
+    },
+    {
+      "id": "t-0022",
+      "time": "2026-09-15T12:00:00",
+      "from": "protection_and_control",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Compiling the reference build"
+    },
+    {
+      "time": "2026-09-15T12:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Preparing regulatory notification",
+      "id": "t-0023"
+    },
+    {
+      "time": "2026-09-15T13:00:00",
+      "from": "technical_management",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Approving the decision to lock vendor remote access",
+      "id": "t-0024"
+    },
+    {
+      "id": "t-0025",
+      "time": "2026-09-15T14:00:00",
+      "from": "external_ics_forensics",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Comparing parameter sets against the reference"
+    },
+    {
+      "id": "t-0026",
+      "time": "2026-09-15T15:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Locking vendor remote access"
+    },
+    {
+      "time": "2026-09-15T15:00:00",
+      "from": "technical_management",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Approving the decision to lock vendor remote access",
+      "id": "t-0027"
+    },
+    {
+      "id": "t-0028",
+      "time": "2026-09-15T16:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Locking vendor remote access"
+    },
+    {
+      "id": "t-0029",
+      "time": "2026-09-15T18:00:00",
+      "from": "grid_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Assessing field site situation picture"
+    },
+    {
+      "id": "t-0030",
+      "time": "2026-09-15T19:00:00",
+      "from": "grid_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Assessing field site situation picture"
+    },
+    {
+      "time": "2026-09-15T19:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking directory service for unauthorized account changes",
+      "id": "t-0031"
+    },
+    {
+      "time": "2026-09-15T20:00:00",
+      "from": "grid_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Assessing load flow after the lock",
+      "id": "t-0032"
+    },
+    {
+      "time": "2026-09-15T20:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking directory service for unauthorized account changes",
+      "id": "t-0033"
+    },
+    {
+      "time": "2026-09-15T21:00:00",
+      "from": "grid_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Assessing load flow after the lock",
+      "id": "t-0034"
+    },
+    {
+      "id": "t-0035",
+      "time": "2026-09-16T06:00:00",
+      "from": "grid_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Shutting down telecontrol"
+    },
+    {
+      "id": "t-0036",
+      "time": "2026-09-16T07:00:00",
+      "from": "grid_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Shutting down telecontrol"
+    },
+    {
+      "id": "t-0037",
+      "time": "2026-09-16T08:00:00",
+      "from": "control_center",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Coordinating manual operation"
+    },
+    {
+      "id": "t-0038",
+      "time": "2026-09-16T09:00:00",
+      "from": "control_system_vendor",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Compiling reference parameter sets"
+    },
+    {
+      "id": "t-0039",
+      "time": "2026-09-16T09:00:00",
+      "from": "technical_management",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Implementing regulatory conditions"
+    },
+    {
+      "time": "2026-09-16T09:00:00",
+      "from": "ot_security",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Tightening process network monitoring",
+      "id": "t-0040"
+    },
+    {
+      "id": "t-0041",
+      "time": "2026-09-16T10:00:00",
+      "from": "protection_and_control",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Drafting test plan per site"
+    },
+    {
+      "time": "2026-09-16T11:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Hardening the office IT to process network boundary",
+      "id": "t-0042"
+    },
+    {
+      "time": "2026-09-16T11:00:00",
+      "from": "ot_security",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Tightening process network monitoring",
+      "id": "t-0043"
+    },
+    {
+      "id": "t-0044",
+      "time": "2026-09-16T13:00:00",
+      "from": "technical_management",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Implementing regulatory conditions"
+    },
+    {
+      "time": "2026-09-16T13:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Hardening the office IT to process network boundary",
+      "id": "t-0045"
+    },
+    {
+      "id": "t-0046",
+      "time": "2026-09-16T14:00:00",
+      "from": "protection_and_control",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Drafting test plan per site"
+    },
+    {
+      "id": "t-0047",
+      "time": "2026-09-16T14:00:00",
+      "from": "control_system_vendor",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Compiling reference parameter sets"
+    },
+    {
+      "time": "2026-09-16T14:00:00",
+      "from": "control_center",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Adjusting manual operation shift plan",
+      "id": "t-0048"
+    },
+    {
+      "time": "2026-09-16T14:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking grid documentation for unauthorized changes",
+      "id": "t-0049"
+    },
+    {
+      "time": "2026-09-16T15:00:00",
+      "from": "control_center",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Adjusting manual operation shift plan",
+      "id": "t-0050"
+    },
+    {
+      "time": "2026-09-16T15:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking grid documentation for unauthorized changes",
+      "id": "t-0051"
+    },
+    {
+      "id": "t-0052",
+      "time": "2026-09-16T16:00:00",
+      "from": "control_center",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Coordinating manual operation"
+    },
+    {
+      "time": "2026-09-16T16:00:00",
+      "from": "protection_and_control",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Preparing parameter sets per site",
+      "id": "t-0053"
+    },
+    {
+      "time": "2026-09-16T16:00:00",
+      "from": "control_system_vendor",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Redesigning the remote access procedure",
+      "id": "t-0054"
+    },
+    {
+      "time": "2026-09-16T17:00:00",
+      "from": "protection_and_control",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Preparing parameter sets per site",
+      "id": "t-0055"
+    },
+    {
+      "time": "2026-09-16T19:00:00",
+      "from": "control_system_vendor",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Redesigning the remote access procedure",
+      "id": "t-0056"
+    },
+    {
+      "time": "2026-09-16T19:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Finalizing notification to the regulator",
+      "id": "t-0057"
+    },
+    {
+      "time": "2026-09-16T20:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Finalizing notification to the regulator",
+      "id": "t-0058"
+    },
+    {
+      "id": "t-0059",
+      "time": "2026-09-17T06:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Traveling to Substation North"
+    },
+    {
+      "id": "t-0060",
+      "time": "2026-09-17T07:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Traveling to Substation North"
+    },
+    {
+      "id": "t-0061",
+      "time": "2026-09-17T08:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking distance protection: Substation North"
+    },
+    {
+      "time": "2026-09-17T09:00:00",
+      "from": "external_ics_forensics",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Reconciling first results with the vendor",
+      "id": "t-0062"
+    },
+    {
+      "id": "t-0063",
+      "time": "2026-09-17T10:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking distance protection: Substation North"
+    },
+    {
+      "id": "t-0064",
+      "time": "2026-09-17T11:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking differential protection: Substation North"
+    },
+    {
+      "time": "2026-09-17T11:00:00",
+      "from": "external_ics_forensics",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Reconciling first results with the vendor",
+      "id": "t-0065"
+    },
+    {
+      "id": "t-0066",
+      "time": "2026-09-17T13:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking differential protection: Substation North"
+    },
+    {
+      "id": "t-0067",
+      "time": "2026-09-17T14:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking telecontrol address table: Substation North"
+    },
+    {
+      "time": "2026-09-17T14:00:00",
+      "from": "energy_data_management",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Initiating balancing group baseline check",
+      "id": "t-0068"
+    },
+    {
+      "id": "t-0069",
+      "time": "2026-09-17T16:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking telecontrol address table: Substation North"
+    },
+    {
+      "time": "2026-09-17T16:00:00",
+      "from": "energy_data_management",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Initiating balancing group baseline check",
+      "id": "t-0070"
+    },
+    {
+      "id": "t-0071",
+      "time": "2026-09-17T17:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking signaling path: Substation North"
+    },
+    {
+      "id": "t-0072",
+      "time": "2026-09-17T19:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking signaling path: Substation North"
+    },
+    {
+      "id": "t-0073",
+      "time": "2026-09-17T20:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking switching command authorization: Substation North"
+    },
+    {
+      "time": "2026-09-17T23:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking switching command authorization: Substation North",
+      "id": "t-0074"
+    },
+    {
+      "id": "t-0075",
+      "time": "2026-09-18T06:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Traveling to Substation South"
+    },
+    {
+      "id": "t-0076",
+      "time": "2026-09-18T07:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Traveling to Substation South"
+    },
+    {
+      "id": "t-0077",
+      "time": "2026-09-18T08:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking telecontrol address table: Substation South"
+    },
+    {
+      "id": "t-0078",
+      "time": "2026-09-18T10:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking telecontrol address table: Substation South"
+    },
+    {
+      "time": "2026-09-18T10:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Supplementing the interim report for the regulator",
+      "id": "t-0079"
+    },
+    {
+      "id": "t-0080",
+      "time": "2026-09-18T11:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking signaling path: Substation South"
+    },
+    {
+      "time": "2026-09-18T11:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Supplementing the interim report for the regulator",
+      "id": "t-0081"
+    },
+    {
+      "id": "t-0082",
+      "time": "2026-09-18T13:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking signaling path: Substation South"
+    },
+    {
+      "id": "t-0083",
+      "time": "2026-09-18T14:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Traveling to Substation Harbor"
+    },
+    {
+      "id": "t-0084",
+      "time": "2026-09-18T15:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Traveling to Substation Harbor"
+    },
+    {
+      "id": "t-0085",
+      "time": "2026-09-18T16:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking switching command authorization: Substation Harbor"
+    },
+    {
+      "id": "t-0086",
+      "time": "2026-09-18T18:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking switching command authorization: Substation Harbor"
+    },
+    {
+      "id": "t-0087",
+      "time": "2026-09-18T19:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking overcurrent time protection: Substation Harbor"
+    },
+    {
+      "id": "t-0088",
+      "time": "2026-09-18T21:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Drafting interim report"
+    },
+    {
+      "id": "t-0089",
+      "time": "2026-09-18T22:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Drafting interim report"
+    },
+    {
+      "time": "2026-09-18T22:00:00",
+      "from": "field_crew_1",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking overcurrent time protection: Substation Harbor",
+      "id": "t-0090"
+    },
+    {
+      "id": "t-0091",
+      "time": "2026-09-21T06:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Traveling to Secondary Substations Group A"
+    },
+    {
+      "id": "t-0092",
+      "time": "2026-09-21T07:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Traveling to Secondary Substations Group A"
+    },
+    {
+      "id": "t-0093",
+      "time": "2026-09-21T08:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking distance protection: Secondary Substations Group A"
+    },
+    {
+      "id": "t-0094",
+      "time": "2026-09-21T08:00:00",
+      "from": "metering_point_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking remote meter reading for impact"
+    },
+    {
+      "time": "2026-09-21T09:00:00",
+      "from": "control_center",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Coordinating week 2 situation picture",
+      "id": "t-0095"
+    },
+    {
+      "id": "t-0096",
+      "time": "2026-09-21T10:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking distance protection: Secondary Substations Group A"
+    },
+    {
+      "id": "t-0097",
+      "time": "2026-09-21T10:00:00",
+      "from": "energy_data_management",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Cross-checking balancing group data"
+    },
+    {
+      "time": "2026-09-21T10:00:00",
+      "from": "control_center",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Coordinating week 2 situation picture",
+      "id": "t-0098"
+    },
+    {
+      "id": "t-0099",
+      "time": "2026-09-21T11:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking differential protection: Secondary Substations Group A"
+    },
+    {
+      "time": "2026-09-21T11:00:00",
+      "from": "metering_point_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking smart meter gateway for access",
+      "id": "t-0100"
+    },
+    {
+      "time": "2026-09-21T12:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Tightening remote access permissions",
+      "id": "t-0101"
+    },
+    {
+      "id": "t-0102",
+      "time": "2026-09-21T13:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking differential protection: Secondary Substations Group A"
+    },
+    {
+      "time": "2026-09-21T13:00:00",
+      "from": "metering_point_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking smart meter gateway for access",
+      "id": "t-0103"
+    },
+    {
+      "id": "t-0104",
+      "time": "2026-09-21T14:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking telecontrol address table: Secondary Substations Group A"
+    },
+    {
+      "id": "t-0105",
+      "time": "2026-09-21T14:00:00",
+      "from": "metering_point_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking remote meter reading for impact"
+    },
+    {
+      "time": "2026-09-21T14:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Tightening remote access permissions",
+      "id": "t-0106"
+    },
+    {
+      "id": "t-0107",
+      "time": "2026-09-21T16:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking telecontrol address table: Secondary Substations Group A"
+    },
+    {
+      "id": "t-0108",
+      "time": "2026-09-21T17:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking signaling path: Secondary Substations Group A"
+    },
+    {
+      "id": "t-0109",
+      "time": "2026-09-21T19:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking signaling path: Secondary Substations Group A"
+    },
+    {
+      "id": "t-0110",
+      "time": "2026-09-21T20:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking switching command authorization: Secondary Substations Group A"
+    },
+    {
+      "id": "t-0111",
+      "time": "2026-09-21T22:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking switching command authorization: Secondary Substations Group A"
+    },
+    {
+      "id": "t-0112",
+      "time": "2026-09-22T06:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking signaling path: Secondary Substations Group A"
+    },
+    {
+      "id": "t-0113",
+      "time": "2026-09-22T07:00:00",
+      "from": "external_ics_forensics",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Extending the scope assessment"
+    },
+    {
+      "id": "t-0114",
+      "time": "2026-09-22T08:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking signaling path: Secondary Substations Group A"
+    },
+    {
+      "time": "2026-09-22T08:00:00",
+      "from": "ot_security",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Technically narrowing the extended scope",
+      "id": "t-0115"
+    },
+    {
+      "id": "t-0116",
+      "time": "2026-09-22T09:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking switching command authorization: Secondary Substations Group A"
+    },
+    {
+      "id": "t-0117",
+      "time": "2026-09-22T09:00:00",
+      "from": "energy_data_management",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Cross-checking balancing group data"
+    },
+    {
+      "time": "2026-09-22T09:00:00",
+      "from": "protection_and_control",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Preparing firmware packages for the protection relay fleet",
+      "id": "t-0118"
+    },
+    {
+      "id": "t-0119",
+      "time": "2026-09-22T11:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking switching command authorization: Secondary Substations Group A"
+    },
+    {
+      "id": "t-0120",
+      "time": "2026-09-22T11:00:00",
+      "from": "external_ics_forensics",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Analyzing meter data management"
+    },
+    {
+      "time": "2026-09-22T11:00:00",
+      "from": "protection_and_control",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Preparing firmware packages for the protection relay fleet",
+      "id": "t-0121"
+    },
+    {
+      "time": "2026-09-22T11:00:00",
+      "from": "ot_security",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Technically narrowing the extended scope",
+      "id": "t-0122"
+    },
+    {
+      "id": "t-0123",
+      "time": "2026-09-22T12:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking overcurrent time protection: Secondary Substations Group A"
+    },
+    {
+      "id": "t-0124",
+      "time": "2026-09-22T13:00:00",
+      "from": "energy_data_management",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Retroactively validating balancing group data"
+    },
+    {
+      "time": "2026-09-22T13:00:00",
+      "from": "technical_management",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Coordinating escalation to the transmission system operator",
+      "id": "t-0125"
+    },
+    {
+      "id": "t-0126",
+      "time": "2026-09-22T14:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking overcurrent time protection: Secondary Substations Group A"
+    },
+    {
+      "time": "2026-09-22T15:00:00",
+      "from": "technical_management",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Coordinating escalation to the transmission system operator",
+      "id": "t-0127"
+    },
+    {
+      "id": "t-0128",
+      "time": "2026-09-22T16:00:00",
+      "from": "external_ics_forensics",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Analyzing meter data management"
+    },
+    {
+      "time": "2026-09-22T16:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Documenting protection relay feedback for Group A",
+      "id": "t-0129"
+    },
+    {
+      "time": "2026-09-22T17:00:00",
+      "from": "field_crew_2",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Documenting protection relay feedback for Group A",
+      "id": "t-0130"
+    },
+    {
+      "time": "2026-09-22T17:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Documenting progress on regulatory conditions",
+      "id": "t-0131"
+    },
+    {
+      "id": "t-0132",
+      "time": "2026-09-22T18:00:00",
+      "from": "external_ics_forensics",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Extending the scope assessment"
+    },
+    {
+      "time": "2026-09-22T18:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Documenting progress on regulatory conditions",
+      "id": "t-0133"
+    },
+    {
+      "time": "2026-09-22T21:00:00",
+      "from": "energy_data_management",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Initiating balancing group correction",
+      "id": "t-0134"
+    },
+    {
+      "time": "2026-09-22T23:00:00",
+      "from": "energy_data_management",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Initiating balancing group correction",
+      "id": "t-0135"
+    },
+    {
+      "id": "t-0136",
+      "time": "2026-09-23T06:00:00",
+      "from": "field_crew_3",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Traveling to Secondary Substations Group B"
+    },
+    {
+      "id": "t-0137",
+      "time": "2026-09-23T07:00:00",
+      "from": "field_crew_3",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Traveling to Secondary Substations Group B"
+    },
+    {
+      "id": "t-0138",
+      "time": "2026-09-23T08:00:00",
+      "from": "field_crew_3",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking distance protection: Secondary Substations Group B"
+    },
+    {
+      "id": "t-0139",
+      "time": "2026-09-23T08:00:00",
+      "from": "protection_and_control",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Raising the protection relay fleet to vendor release"
+    },
+    {
+      "time": "2026-09-23T09:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Coordinating protection relay firmware rollout",
+      "id": "t-0140"
+    },
+    {
+      "id": "t-0141",
+      "time": "2026-09-23T10:00:00",
+      "from": "field_crew_3",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking distance protection: Secondary Substations Group B"
+    },
+    {
+      "id": "t-0142",
+      "time": "2026-09-23T11:00:00",
+      "from": "field_crew_3",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking differential protection: Secondary Substations Group B"
+    },
+    {
+      "time": "2026-09-23T11:00:00",
+      "from": "metering_point_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Completing remote meter reading for Group B",
+      "id": "t-0143"
+    },
+    {
+      "time": "2026-09-23T12:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Coordinating protection relay firmware rollout",
+      "id": "t-0144"
+    },
+    {
+      "time": "2026-09-23T12:00:00",
+      "from": "metering_point_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Completing remote meter reading for Group B",
+      "id": "t-0145"
+    },
+    {
+      "id": "t-0146",
+      "time": "2026-09-23T13:00:00",
+      "from": "field_crew_3",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking differential protection: Secondary Substations Group B"
+    },
+    {
+      "time": "2026-09-23T13:00:00",
+      "from": "energy_data_management",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking ERP and energy data management for manipulation",
+      "id": "t-0147"
+    },
+    {
+      "id": "t-0148",
+      "time": "2026-09-23T14:00:00",
+      "from": "field_crew_3",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking telecontrol address table: Secondary Substations Group B"
+    },
+    {
+      "time": "2026-09-23T14:00:00",
+      "from": "energy_data_management",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking ERP and energy data management for manipulation",
+      "id": "t-0149"
+    },
+    {
+      "id": "t-0150",
+      "time": "2026-09-23T15:00:00",
+      "from": "protection_and_control",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Raising the protection relay fleet to vendor release"
+    },
+    {
+      "id": "t-0151",
+      "time": "2026-09-23T16:00:00",
+      "from": "field_crew_3",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking telecontrol address table: Secondary Substations Group B"
+    },
+    {
+      "id": "t-0152",
+      "time": "2026-09-23T17:00:00",
+      "from": "field_crew_3",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Checking signaling path: Secondary Substations Group B"
+    },
+    {
+      "id": "t-0153",
+      "time": "2026-09-23T18:00:00",
+      "from": "energy_data_management",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Retroactively validating balancing group data"
+    },
+    {
+      "id": "t-0154",
+      "time": "2026-09-23T19:00:00",
+      "from": "field_crew_3",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Checking signaling path: Secondary Substations Group B"
+    },
+    {
+      "id": "t-0155",
+      "time": "2026-09-24T07:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Activating the backup control system as a clean base"
+    },
+    {
+      "time": "2026-09-24T08:00:00",
+      "from": "protection_and_control",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Collecting verification records for all sites",
+      "id": "t-0156"
+    },
+    {
+      "time": "2026-09-24T08:00:00",
+      "from": "control_center",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Testing telecontrol link: Substation North",
+      "id": "t-0157"
+    },
+    {
+      "id": "t-0158",
+      "time": "2026-09-24T09:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Activating the backup control system as a clean base"
+    },
+    {
+      "time": "2026-09-24T09:00:00",
+      "from": "protection_and_control",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Collecting verification records for all sites",
+      "id": "t-0159"
+    },
+    {
+      "time": "2026-09-24T09:00:00",
+      "from": "ot_security",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Resetting intrusion detection to reference build",
+      "id": "t-0160"
+    },
+    {
+      "id": "t-0161",
+      "time": "2026-09-24T10:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Rebuilding the primary system"
+    },
+    {
+      "time": "2026-09-24T10:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Consolidating evidence documents",
+      "id": "t-0162"
+    },
+    {
+      "id": "t-0163",
+      "time": "2026-09-24T11:00:00",
+      "from": "grid_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Returning telecontrol links to service in stages"
+    },
+    {
+      "time": "2026-09-24T11:00:00",
+      "from": "ot_security",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Resetting intrusion detection to reference build",
+      "id": "t-0164"
+    },
+    {
+      "time": "2026-09-24T13:00:00",
+      "from": "control_center",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Testing telecontrol link: Substation North",
+      "id": "t-0165"
+    },
+    {
+      "time": "2026-09-24T13:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Consolidating evidence documents",
+      "id": "t-0166"
+    },
+    {
+      "time": "2026-09-24T14:00:00",
+      "from": "control_center",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Testing telecontrol link: Substation South",
+      "id": "t-0167"
+    },
+    {
+      "id": "t-0168",
+      "time": "2026-09-24T15:00:00",
+      "from": "grid_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Returning telecontrol links to service in stages"
+    },
+    {
+      "id": "t-0169",
+      "time": "2026-09-24T17:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Rebuilding the primary system"
+    },
+    {
+      "time": "2026-09-24T17:00:00",
+      "from": "control_center",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Testing telecontrol link: Substation South",
+      "id": "t-0170"
+    },
+    {
+      "time": "2026-09-24T18:00:00",
+      "from": "external_ics_forensics",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Drafting final report scope",
+      "id": "t-0171"
+    },
+    {
+      "time": "2026-09-24T19:00:00",
+      "from": "control_center",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Testing telecontrol link: Substation Harbor",
+      "id": "t-0172"
+    },
+    {
+      "time": "2026-09-24T19:00:00",
+      "from": "metering_point_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Flagging meter data for year-end closing",
+      "id": "t-0173"
+    },
+    {
+      "time": "2026-09-24T20:00:00",
+      "from": "control_center",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Testing telecontrol link: Substation Harbor",
+      "id": "t-0174"
+    },
+    {
+      "time": "2026-09-24T20:00:00",
+      "from": "external_ics_forensics",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Drafting final report scope",
+      "id": "t-0175"
+    },
+    {
+      "time": "2026-09-24T21:00:00",
+      "from": "control_center",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Preparing shift handover to normal operation",
+      "id": "t-0176"
+    },
+    {
+      "time": "2026-09-24T23:00:00",
+      "from": "control_center",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Preparing shift handover to normal operation",
+      "id": "t-0177"
+    },
+    {
+      "id": "t-0178",
+      "time": "2026-09-25T06:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Compiling final evidence per site"
+    },
+    {
+      "id": "t-0179",
+      "time": "2026-09-25T07:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Setting up the new remote access procedure"
+    },
+    {
+      "id": "t-0180",
+      "time": "2026-09-25T09:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Setting up the new remote access procedure"
+    },
+    {
+      "time": "2026-09-25T09:00:00",
+      "from": "protection_and_control",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Granting final protection parameter approval",
+      "id": "t-0181"
+    },
+    {
+      "time": "2026-09-25T10:00:00",
+      "from": "grid_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Compiling evidence for the transmission system operator",
+      "id": "t-0182"
+    },
+    {
+      "time": "2026-09-25T11:00:00",
+      "from": "protection_and_control",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Granting final protection parameter approval",
+      "id": "t-0183"
+    },
+    {
+      "time": "2026-09-25T11:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Testing vendor remote access with the new procedure",
+      "id": "t-0184"
+    },
+    {
+      "time": "2026-09-25T11:00:00",
+      "from": "ot_security",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Restoring routine monitoring",
+      "id": "t-0185"
+    },
+    {
+      "id": "t-0186",
+      "time": "2026-09-25T12:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Compiling final evidence per site"
+    },
+    {
+      "time": "2026-09-25T12:00:00",
+      "from": "grid_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Compiling evidence for the transmission system operator",
+      "id": "t-0187"
+    },
+    {
+      "time": "2026-09-25T12:00:00",
+      "from": "it_operations",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Testing vendor remote access with the new procedure",
+      "id": "t-0188"
+    },
+    {
+      "time": "2026-09-25T12:00:00",
+      "from": "ot_security",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Restoring routine monitoring",
+      "id": "t-0189"
+    },
+    {
+      "id": "t-0190",
+      "time": "2026-09-25T13:00:00",
+      "from": "technical_management",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Compiling lessons learned"
+    },
+    {
+      "id": "t-0191",
+      "time": "2026-09-25T15:00:00",
+      "from": "grid_operations",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Resuming routine operation"
+    },
+    {
+      "id": "t-0192",
+      "time": "2026-09-25T15:00:00",
+      "from": "control_center",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Resuming routine operation"
+    },
+    {
+      "id": "t-0193",
+      "time": "2026-09-25T15:00:00",
+      "from": "protection_and_control",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Resuming routine operation"
+    },
+    {
+      "id": "t-0194",
+      "time": "2026-09-25T16:00:00",
+      "from": "technical_management",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Compiling lessons learned"
+    },
+    {
+      "time": "2026-09-25T17:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Handing lessons learned to the ISMS",
+      "id": "t-0195"
+    },
+    {
+      "time": "2026-09-25T18:00:00",
+      "from": "information_security_officer",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Handing lessons learned to the ISMS",
+      "id": "t-0196"
+    },
+    {
+      "time": "2026-09-25T19:00:00",
+      "from": "technical_management",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Preparing final management briefing",
+      "id": "t-0197"
+    },
+    {
+      "time": "2026-09-25T20:00:00",
+      "from": "technical_management",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Preparing final management briefing",
+      "id": "t-0198"
+    }
+  ]
+}

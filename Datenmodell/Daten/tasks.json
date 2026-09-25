@@ -1,0 +1,333 @@
+{
+  "exercise": "tauernrad-run-1",
+  "events": [
+    {
+      "id": "<20260915090000.35pi7i@tauernrad-exercise.local>",
+      "time": "2026-09-14T08:00:00",
+      "from": "procurement",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Purchasing"
+    },
+    {
+      "id": "<20260915090000.ubdjp5@tauernrad-exercise.local>",
+      "time": "2026-09-14T08:00:00",
+      "from": "production",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Manufacturing"
+    },
+    {
+      "id": "<20260915090000.lr3by8@tauernrad-exercise.local>",
+      "time": "2026-09-14T08:00:00",
+      "from": "warehouse_shipping",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Handling goods"
+    },
+    {
+      "id": "<20260915090000.2nj5ot@tauernrad-exercise.local>",
+      "time": "2026-09-14T08:00:00",
+      "from": "it_administration",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Investigating fault"
+    },
+    {
+      "id": "<20260915090300.qgg3g1@tauernrad-exercise.local>",
+      "time": "2026-09-14T08:30:00",
+      "from": "production",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Manufacturing"
+    },
+    {
+      "id": "<20260915090900.e59i85@tauernrad-exercise.local>",
+      "time": "2026-09-14T09:30:00",
+      "from": "it_administration",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Investigating fault"
+    },
+    {
+      "id": "<20260915093000.1qdv3x@tauernrad-exercise.local>",
+      "time": "2026-09-14T13:00:00",
+      "from": "warehouse_shipping",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Handling goods"
+    },
+    {
+      "id": "<20260915093300.2bc406@tauernrad-exercise.local>",
+      "time": "2026-09-14T13:30:00",
+      "from": "external_it_forensics",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Running remote diagnostics"
+    },
+    {
+      "id": "<20260915093600.rxoy13@tauernrad-exercise.local>",
+      "time": "2026-09-14T14:00:00",
+      "from": "warehouse_shipping",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Handing over goods"
+    },
+    {
+      "id": "<20260915093900.k4loau@tauernrad-exercise.local>",
+      "time": "2026-09-14T14:30:00",
+      "from": "production",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Running manual fallback"
+    },
+    {
+      "id": "<20260915094800.pk1qae@tauernrad-exercise.local>",
+      "time": "2026-09-14T16:00:00",
+      "from": "external_it_forensics",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Running remote diagnostics"
+    },
+    {
+      "id": "<20260915100600.fu7mlo@tauernrad-exercise.local>",
+      "time": "2026-09-15T09:30:00",
+      "from": "external_it_forensics",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Running on-site analysis"
+    },
+    {
+      "id": "<20260915101200.p0fntj@tauernrad-exercise.local>",
+      "time": "2026-09-15T10:30:00",
+      "from": "logistics_partner",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Taking over logistics"
+    },
+    {
+      "id": "<20260915101200.1u4uzi@tauernrad-exercise.local>",
+      "time": "2026-09-15T10:30:00",
+      "from": "warehouse_shipping",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Handing over goods"
+    },
+    {
+      "id": "<20260915102400.i5jd4t@tauernrad-exercise.local>",
+      "time": "2026-09-15T12:30:00",
+      "from": "external_it_forensics",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Running on-site analysis"
+    },
+    {
+      "id": "<20260915103000.dzigti@tauernrad-exercise.local>",
+      "time": "2026-09-15T13:30:00",
+      "from": "external_it_forensics",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Verifying backup integrity"
+    },
+    {
+      "id": "<20260915103600.061y3w@tauernrad-exercise.local>",
+      "time": "2026-09-15T14:30:00",
+      "from": "procurement",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Purchasing"
+    },
+    {
+      "id": "<20260915103900.lq8kcz@tauernrad-exercise.local>",
+      "time": "2026-09-15T15:00:00",
+      "from": "procurement",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Pausing purchasing"
+    },
+    {
+      "id": "<20260915104800.t6ji16@tauernrad-exercise.local>",
+      "time": "2026-09-16T10:00:00",
+      "from": "external_it_forensics",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Verifying backup integrity"
+    },
+    {
+      "id": "<20260915105400.c2sxp3@tauernrad-exercise.local>",
+      "time": "2026-09-16T11:00:00",
+      "from": "external_it_forensics",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Running restoration"
+    },
+    {
+      "id": "<20260915105700.pnz1ev@tauernrad-exercise.local>",
+      "time": "2026-09-16T11:30:00",
+      "from": "it_administration",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Resetting credentials"
+    },
+    {
+      "id": "<20260915110300.n0eklj@tauernrad-exercise.local>",
+      "time": "2026-09-16T12:30:00",
+      "from": "it_administration",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Resetting credentials"
+    },
+    {
+      "id": "<20260915111500.gjq9ef@tauernrad-exercise.local>",
+      "time": "2026-09-17T10:00:00",
+      "from": "external_it_forensics",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Running restoration"
+    },
+    {
+      "id": "<20260915112700.y3nhel@tauernrad-exercise.local>",
+      "time": "2026-09-17T12:00:00",
+      "from": "production",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Running manual fallback"
+    },
+    {
+      "id": "<20260915113000.02egn7@tauernrad-exercise.local>",
+      "time": "2026-09-17T12:30:00",
+      "from": "production",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Running test operation"
+    },
+    {
+      "id": "<20260915113000.ddumpy@tauernrad-exercise.local>",
+      "time": "2026-09-17T12:30:00",
+      "from": "warehouse_shipping",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Running test operation"
+    },
+    {
+      "id": "<20260915113900.kjoker@tauernrad-exercise.local>",
+      "time": "2026-09-17T14:00:00",
+      "from": "production",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Running test operation"
+    },
+    {
+      "id": "<20260915113900.rd6yy6@tauernrad-exercise.local>",
+      "time": "2026-09-17T14:00:00",
+      "from": "warehouse_shipping",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Running test operation"
+    },
+    {
+      "id": "<20260915120000.9dl8v6@tauernrad-exercise.local>",
+      "time": "2026-09-18T08:30:00",
+      "from": "procurement",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Pausing purchasing"
+    },
+    {
+      "id": "<20260915120300.ewnk0k@tauernrad-exercise.local>",
+      "time": "2026-09-18T09:00:00",
+      "from": "procurement",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Reconciling orders"
+    },
+    {
+      "id": "<20260915120600.nc70lh@tauernrad-exercise.local>",
+      "time": "2026-09-18T09:30:00",
+      "from": "production",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Reconciling production status"
+    },
+    {
+      "id": "<20260915122100.7y7iw0@tauernrad-exercise.local>",
+      "time": "2026-09-18T12:00:00",
+      "from": "logistics_partner",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Taking over logistics"
+    },
+    {
+      "id": "<20260915122400.ln8xfr@tauernrad-exercise.local>",
+      "time": "2026-09-18T12:30:00",
+      "from": "warehouse_shipping",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Taking inventory"
+    },
+    {
+      "id": "<20260915123300.wglxyx@tauernrad-exercise.local>",
+      "time": "2026-09-18T14:00:00",
+      "from": "procurement",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Reconciling orders"
+    },
+    {
+      "id": "<20260915123900.rfxox9@tauernrad-exercise.local>",
+      "time": "2026-09-18T15:00:00",
+      "from": "production",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Reconciling production status"
+    },
+    {
+      "id": "<20260915123900.xofq4c@tauernrad-exercise.local>",
+      "time": "2026-09-18T15:00:00",
+      "from": "warehouse_shipping",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Taking inventory"
+    },
+    {
+      "id": "<20260915123900.hh9j2o@tauernrad-exercise.local>",
+      "time": "2026-09-18T15:00:00",
+      "from": "procurement",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Purchasing"
+    },
+    {
+      "id": "<20260915124500.a669kj@tauernrad-exercise.local>",
+      "time": "2026-09-18T16:00:00",
+      "from": "production",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Manufacturing"
+    },
+    {
+      "id": "<20260915124500.osg4pv@tauernrad-exercise.local>",
+      "time": "2026-09-18T16:00:00",
+      "from": "warehouse_shipping",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Handling goods"
+    },
+    {
+      "id": "<20260915124500.lc2y4p@tauernrad-exercise.local>",
+      "time": "2026-09-18T16:00:00",
+      "from": "ceo",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Writing final report"
+    },
+    {
+      "id": "<20260915124800.hv71cg@tauernrad-exercise.local>",
+      "time": "2026-09-18T16:30:00",
+      "from": "ceo",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Writing final report"
+    }
+  ]
+}

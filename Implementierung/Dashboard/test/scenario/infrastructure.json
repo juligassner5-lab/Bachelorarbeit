@@ -1,0 +1,493 @@
+{
+  "exercise": "weserland-netz-run-1",
+  "events": [
+    {
+      "id": "i-0001",
+      "time": "2026-09-14T07:00:00",
+      "from": "facilitator",
+      "to": "ot_security",
+      "component": "engineering_workstation",
+      "state": "suspicious"
+    },
+    {
+      "id": "i-0002",
+      "time": "2026-09-14T07:00:00",
+      "from": "facilitator",
+      "to": "it_operations",
+      "component": "vendor_remote_access",
+      "state": "suspicious"
+    },
+    {
+      "time": "2026-09-14T08:00:00",
+      "from": "facilitator",
+      "to": "ot_security",
+      "component": "process_data_network",
+      "state": "suspicious",
+      "id": "i-0003"
+    },
+    {
+      "time": "2026-09-14T20:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "substation_north",
+      "state": "suspicious",
+      "id": "i-0004"
+    },
+    {
+      "time": "2026-09-14T21:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "substation_south",
+      "state": "suspicious",
+      "id": "i-0005"
+    },
+    {
+      "time": "2026-09-14T22:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "substation_harbor",
+      "state": "suspicious",
+      "id": "i-0006"
+    },
+    {
+      "time": "2026-09-15T08:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "secondary_substations_a",
+      "state": "suspicious",
+      "id": "i-0007"
+    },
+    {
+      "time": "2026-09-15T09:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "secondary_substations_b",
+      "state": "suspicious",
+      "id": "i-0008"
+    },
+    {
+      "time": "2026-09-15T10:00:00",
+      "from": "facilitator",
+      "to": "protection_and_control",
+      "component": "protection_relay_fleet",
+      "state": "suspicious",
+      "id": "i-0009"
+    },
+    {
+      "id": "i-0010",
+      "time": "2026-09-15T14:00:00",
+      "from": "facilitator",
+      "to": "ot_security",
+      "component": "engineering_workstation",
+      "state": "compromised"
+    },
+    {
+      "id": "i-0011",
+      "time": "2026-09-15T14:00:00",
+      "from": "facilitator",
+      "to": "it_operations",
+      "component": "vendor_remote_access",
+      "state": "locked"
+    },
+    {
+      "id": "i-0012",
+      "time": "2026-09-15T14:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "grid_control_system",
+      "state": "not trusted"
+    },
+    {
+      "id": "i-0013",
+      "time": "2026-09-15T14:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "substation_north",
+      "state": "not trusted"
+    },
+    {
+      "id": "i-0014",
+      "time": "2026-09-15T14:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "substation_south",
+      "state": "not trusted"
+    },
+    {
+      "id": "i-0015",
+      "time": "2026-09-15T14:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "substation_harbor",
+      "state": "not trusted"
+    },
+    {
+      "id": "i-0016",
+      "time": "2026-09-15T14:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "secondary_substations_a",
+      "state": "not trusted"
+    },
+    {
+      "id": "i-0017",
+      "time": "2026-09-15T14:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "secondary_substations_b",
+      "state": "not trusted"
+    },
+    {
+      "id": "i-0018",
+      "time": "2026-09-15T14:00:00",
+      "from": "facilitator",
+      "to": "protection_and_control",
+      "component": "protection_relay_fleet",
+      "state": "not trusted"
+    },
+    {
+      "time": "2026-09-15T15:00:00",
+      "from": "facilitator",
+      "to": "it_operations",
+      "component": "office_network",
+      "state": "suspicious",
+      "id": "i-0019"
+    },
+    {
+      "time": "2026-09-15T16:00:00",
+      "from": "facilitator",
+      "to": "it_operations",
+      "component": "directory_service",
+      "state": "suspicious",
+      "id": "i-0020"
+    },
+    {
+      "time": "2026-09-15T20:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "telecontrol_center",
+      "state": "suspicious",
+      "id": "i-0021"
+    },
+    {
+      "id": "i-0022",
+      "time": "2026-09-16T07:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "telecontrol_center",
+      "state": "in manual operation"
+    },
+    {
+      "time": "2026-09-16T09:00:00",
+      "from": "facilitator",
+      "to": "ot_security",
+      "component": "intrusion_detection",
+      "state": "suspicious",
+      "id": "i-0023"
+    },
+    {
+      "time": "2026-09-16T12:00:00",
+      "from": "facilitator",
+      "to": "it_operations",
+      "component": "grid_documentation",
+      "state": "suspicious",
+      "id": "i-0024"
+    },
+    {
+      "time": "2026-09-16T18:00:00",
+      "from": "facilitator",
+      "to": "ot_security",
+      "component": "intrusion_detection",
+      "state": "verified",
+      "id": "i-0025"
+    },
+    {
+      "id": "i-0026",
+      "time": "2026-09-17T07:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "substation_north",
+      "state": "under verification"
+    },
+    {
+      "id": "i-0027",
+      "time": "2026-09-17T21:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "substation_north",
+      "state": "parameters reset"
+    },
+    {
+      "id": "i-0028",
+      "time": "2026-09-18T06:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "substation_south",
+      "state": "under verification"
+    },
+    {
+      "id": "i-0029",
+      "time": "2026-09-18T14:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "substation_south",
+      "state": "parameters reset"
+    },
+    {
+      "id": "i-0030",
+      "time": "2026-09-18T15:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "substation_harbor",
+      "state": "under verification"
+    },
+    {
+      "id": "i-0031",
+      "time": "2026-09-18T20:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "substation_harbor",
+      "state": "parameters reset"
+    },
+    {
+      "id": "i-0032",
+      "time": "2026-09-21T07:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "secondary_substations_a",
+      "state": "under verification"
+    },
+    {
+      "time": "2026-09-21T09:00:00",
+      "from": "facilitator",
+      "to": "metering_point_operations",
+      "component": "smart_meter_gateway_admin",
+      "state": "suspicious",
+      "id": "i-0033"
+    },
+    {
+      "id": "i-0034",
+      "time": "2026-09-22T10:00:00",
+      "from": "facilitator",
+      "to": "energy_data_management",
+      "component": "meter_data_management",
+      "state": "suspicious"
+    },
+    {
+      "id": "i-0035",
+      "time": "2026-09-22T11:00:00",
+      "from": "facilitator",
+      "to": "energy_data_management",
+      "component": "meter_data_management",
+      "state": "not trusted"
+    },
+    {
+      "time": "2026-09-22T12:00:00",
+      "from": "facilitator",
+      "to": "metering_point_operations",
+      "component": "smart_meter_gateway_admin",
+      "state": "verified",
+      "id": "i-0036"
+    },
+    {
+      "time": "2026-09-22T12:00:00",
+      "from": "facilitator",
+      "to": "energy_data_management",
+      "component": "erp_billing",
+      "state": "suspicious",
+      "id": "i-0037"
+    },
+    {
+      "time": "2026-09-22T14:00:00",
+      "from": "facilitator",
+      "to": "energy_data_management",
+      "component": "energy_data_management_system",
+      "state": "suspicious",
+      "id": "i-0038"
+    },
+    {
+      "id": "i-0039",
+      "time": "2026-09-22T15:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "secondary_substations_a",
+      "state": "parameters reset"
+    },
+    {
+      "id": "i-0040",
+      "time": "2026-09-23T07:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "secondary_substations_b",
+      "state": "under verification"
+    },
+    {
+      "id": "i-0041",
+      "time": "2026-09-23T09:00:00",
+      "from": "facilitator",
+      "to": "protection_and_control",
+      "component": "protection_relay_fleet",
+      "state": "under verification"
+    },
+    {
+      "id": "i-0042",
+      "time": "2026-09-23T15:00:00",
+      "from": "facilitator",
+      "to": "protection_and_control",
+      "component": "protection_relay_fleet",
+      "state": "verified"
+    },
+    {
+      "id": "i-0043",
+      "time": "2026-09-23T18:00:00",
+      "from": "facilitator",
+      "to": "energy_data_management",
+      "component": "meter_data_management",
+      "state": "verified"
+    },
+    {
+      "time": "2026-09-23T18:00:00",
+      "from": "facilitator",
+      "to": "it_operations",
+      "component": "backup_control_system",
+      "state": "suspicious",
+      "id": "i-0044"
+    },
+    {
+      "time": "2026-09-23T19:00:00",
+      "from": "facilitator",
+      "to": "energy_data_management",
+      "component": "erp_billing",
+      "state": "verified",
+      "id": "i-0045"
+    },
+    {
+      "id": "i-0046",
+      "time": "2026-09-23T20:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "secondary_substations_b",
+      "state": "parameters reset"
+    },
+    {
+      "time": "2026-09-23T20:00:00",
+      "from": "facilitator",
+      "to": "energy_data_management",
+      "component": "energy_data_management_system",
+      "state": "verified",
+      "id": "i-0047"
+    },
+    {
+      "id": "i-0048",
+      "time": "2026-09-24T08:00:00",
+      "from": "facilitator",
+      "to": "it_operations",
+      "component": "backup_control_system",
+      "state": "verified"
+    },
+    {
+      "id": "i-0049",
+      "time": "2026-09-24T12:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "substation_north",
+      "state": "verified"
+    },
+    {
+      "id": "i-0050",
+      "time": "2026-09-24T13:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "substation_south",
+      "state": "verified"
+    },
+    {
+      "id": "i-0051",
+      "time": "2026-09-24T14:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "substation_harbor",
+      "state": "verified"
+    },
+    {
+      "id": "i-0052",
+      "time": "2026-09-24T14:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "secondary_substations_a",
+      "state": "verified"
+    },
+    {
+      "id": "i-0053",
+      "time": "2026-09-24T15:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "secondary_substations_b",
+      "state": "verified"
+    },
+    {
+      "id": "i-0054",
+      "time": "2026-09-24T15:00:00",
+      "from": "facilitator",
+      "to": "grid_operations",
+      "component": "telecontrol_center",
+      "state": "verified"
+    },
+    {
+      "id": "i-0055",
+      "time": "2026-09-24T17:00:00",
+      "from": "facilitator",
+      "to": "it_operations",
+      "component": "grid_control_system",
+      "state": "verified"
+    },
+    {
+      "time": "2026-09-24T18:00:00",
+      "from": "facilitator",
+      "to": "it_operations",
+      "component": "directory_service",
+      "state": "verified",
+      "id": "i-0056"
+    },
+    {
+      "time": "2026-09-24T19:00:00",
+      "from": "facilitator",
+      "to": "it_operations",
+      "component": "grid_documentation",
+      "state": "verified",
+      "id": "i-0057"
+    },
+    {
+      "id": "i-0058",
+      "time": "2026-09-25T09:00:00",
+      "from": "facilitator",
+      "to": "it_operations",
+      "component": "vendor_remote_access",
+      "state": "verified"
+    },
+    {
+      "id": "i-0059",
+      "time": "2026-09-25T10:00:00",
+      "from": "facilitator",
+      "to": "ot_security",
+      "component": "engineering_workstation",
+      "state": "verified"
+    },
+    {
+      "time": "2026-09-25T10:00:00",
+      "from": "facilitator",
+      "to": "it_operations",
+      "component": "office_network",
+      "state": "verified",
+      "id": "i-0060"
+    },
+    {
+      "time": "2026-09-25T11:00:00",
+      "from": "facilitator",
+      "to": "ot_security",
+      "component": "process_data_network",
+      "state": "verified",
+      "id": "i-0061"
+    }
+  ]
+}

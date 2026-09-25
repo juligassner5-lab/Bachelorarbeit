@@ -1,0 +1,38 @@
+{
+  "_note": "Target values for the test scenario in test/scenario, computed directly from core.js.",
+  "event_counts": {
+    "total": 797,
+    "communication": 538,
+    "task_start": 101,
+    "task_end": 97,
+    "infrastructure": 61
+  },
+  "total_ticks": 180,
+  "metric_hours": {
+    "manual_operation": 152,
+    "control_system_not_trusted": 165,
+    "vendor_remote_access_locked": 175,
+    "field_campaign": 121,
+    "ics_forensics_duration": 176,
+    "vendor_reference_build": 5,
+    "relay_firmware_update": 7
+  },
+  "metric_counts": {
+    "site_verifications": 6,
+    "regulator_communication": 7
+  },
+  "cost_amounts": {
+    "ics_forensics_fee": 171200,
+    "vendor_reference_fee": 1750,
+    "manual_operation_extra_cost": 27022.22,
+    "field_campaign_cost": 17477.78,
+    "relay_firmware_update_cost": 1260,
+    "regulatory_conditions_cost": 15200
+  },
+  "category_totals": {
+    "external_services": 172950,
+    "operating_costs": 45760,
+    "regulatory_conditions": 15200
+  },
+  "grand_total": 233910
+}

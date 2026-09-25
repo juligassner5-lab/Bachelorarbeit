@@ -1,0 +1,15 @@
+{
+  "_note": "BLANK FORM for the infrastructure status events. Copy it, rename it to infrastructure.json, replace the sample event. Only state changes are reported — the starting state is held as initial_state in the configuration. Rules: ../Schema/events.schema.json.",
+  "exercise": "exercise-1",
+  "events": [
+    {
+      "_note": "from is the facilitator identifier from control_ids, to is the responsible role. state must appear in vocabulary.component_states of the configuration.",
+      "id": "infrastructure-1",
+      "time": "2026-01-05T08:00:00",
+      "from": "facilitator",
+      "to": "role-1",
+      "component": "system-1",
+      "state": "failed"
+    }
+  ]
+}

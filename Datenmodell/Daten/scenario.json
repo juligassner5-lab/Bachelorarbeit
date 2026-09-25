@@ -1,0 +1,324 @@
+{
+  "exercise": {
+    "id": "tauernrad-run-1",
+    "name": "TauernRad AG – Run 1",
+    "conducted_at": "2026-09-15T09:00:00+02:00"
+  },
+  "time_model": {
+    "tick_minutes": 30,
+    "compression_factor": 10,
+    "min_event_gap_minutes": 30,
+    "playback_ms_per_tick": 1000,
+    "business_day": {
+      "start": "08:00",
+      "end": "17:00"
+    },
+    "phases": [
+      {
+        "label": "Day 1",
+        "narrative_start": "2026-09-14T08:00:00",
+        "narrative_end": "2026-09-14T17:00:00",
+        "real_start": "2026-09-15T09:00:00+02:00",
+        "briefing": "[BRIEFING] Day 1, 08:00 – Monday morning at TauernRad AG. Procurement, Production, and Warehouse/Shipping begin their daily work."
+      },
+      {
+        "label": "Day 2",
+        "narrative_start": "2026-09-15T08:00:00",
+        "narrative_end": "2026-09-15T15:30:00",
+        "real_start": "2026-09-15T09:57:00+02:00",
+        "briefing": "[BRIEFING] Day 2, 08:00 – The incident has been reported; the on-site analysis begins."
+      },
+      {
+        "label": "Day 3",
+        "narrative_start": "2026-09-16T09:30:00",
+        "narrative_end": "2026-09-16T13:30:00",
+        "real_start": "2026-09-15T10:45:00+02:00",
+        "briefing": "[BRIEFING] Day 3, 09:30 – A quiet day of restoration work in the background."
+      },
+      {
+        "label": "Day 4",
+        "narrative_start": "2026-09-17T09:30:00",
+        "narrative_end": "2026-09-17T16:30:00",
+        "real_start": "2026-09-15T11:12:00+02:00",
+        "briefing": "[BRIEFING] Day 4, 09:30 – An active day of bringing systems back online."
+      },
+      {
+        "label": "Day 5",
+        "narrative_start": "2026-09-18T08:00:00",
+        "narrative_end": "2026-09-18T17:30:00",
+        "real_start": "2026-09-15T11:57:00+02:00",
+        "briefing": "[BRIEFING] Day 5, 08:00 – Reconciliation phase and closure."
+      }
+    ]
+  },
+  "control_ids": {
+    "facilitator": "facilitator"
+  },
+  "actors": [
+    {
+      "id": "external_it_forensics",
+      "name": "External IT Forensics",
+      "address": "forensics@tauernrad-exercise.local",
+      "order": 1,
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "it_administration",
+      "name": "IT Administration",
+      "address": "it-admin@tauernrad-exercise.local",
+      "order": 2,
+      "color": "#0ea5e9"
+    },
+    {
+      "id": "production",
+      "name": "Production",
+      "address": "production@tauernrad-exercise.local",
+      "order": 3,
+      "color": "#f59e0b"
+    },
+    {
+      "id": "ceo",
+      "name": "CEO",
+      "address": "ceo@tauernrad-exercise.local",
+      "order": 4,
+      "color": "#4f46e5"
+    },
+    {
+      "id": "procurement",
+      "name": "Procurement",
+      "address": "procurement@tauernrad-exercise.local",
+      "order": 5,
+      "color": "#ec4899"
+    },
+    {
+      "id": "authorities_retailers",
+      "name": "Authorities/Retailers",
+      "address": "authorities@tauernrad-exercise.local",
+      "order": 6,
+      "color": "#64748b"
+    },
+    {
+      "id": "warehouse_shipping",
+      "name": "Warehouse/Shipping",
+      "address": "warehouse@tauernrad-exercise.local",
+      "order": 7,
+      "color": "#10b981"
+    },
+    {
+      "id": "logistics_partner",
+      "name": "Logistics Partner",
+      "address": "partner@tauernrad-exercise.local",
+      "order": 8,
+      "color": "#06b6d4"
+    }
+  ],
+  "components": [
+    {
+      "id": "communication_system",
+      "name": "Communication System",
+      "address": "communication-system@tauernrad-exercise.local",
+      "initial_state": "available",
+      "depends_on": []
+    },
+    {
+      "id": "production_control",
+      "name": "Production Control",
+      "address": "production-control@tauernrad-exercise.local",
+      "initial_state": "available",
+      "depends_on": [
+        "identity_management",
+        "database_server"
+      ]
+    },
+    {
+      "id": "warehouse_system",
+      "name": "Warehouse System",
+      "address": "warehouse-system@tauernrad-exercise.local",
+      "initial_state": "available",
+      "depends_on": [
+        "identity_management",
+        "database_server"
+      ]
+    },
+    {
+      "id": "identity_management",
+      "name": "Identity Management",
+      "address": "identity-management@tauernrad-exercise.local",
+      "initial_state": "available",
+      "depends_on": []
+    },
+    {
+      "id": "database_server",
+      "name": "Database Server",
+      "address": "database-server@tauernrad-exercise.local",
+      "initial_state": "available",
+      "depends_on": [
+        "identity_management"
+      ]
+    }
+  ],
+  "vocabulary": {
+    "component_states": [
+      {
+        "name": "available",
+        "category": "ok"
+      },
+      {
+        "name": "disrupted",
+        "category": "critical"
+      },
+      {
+        "name": "being restored",
+        "category": "warning"
+      },
+      {
+        "name": "under investigation",
+        "category": "warning"
+      },
+      {
+        "name": "available (reset)",
+        "category": "ok"
+      },
+      {
+        "name": "blocked",
+        "category": "critical"
+      },
+      {
+        "name": "test operation",
+        "category": "warning"
+      }
+    ]
+  },
+  "metrics": [
+    {
+      "id": "purchasing_freeze",
+      "label": "Purchasing freeze",
+      "unit": "h",
+      "color": "#ec4899",
+      "start": {
+        "source": "tasks",
+        "where": {
+          "task": "Pausing purchasing",
+          "event": "start"
+        },
+        "pick": "first"
+      },
+      "end": {
+        "source": "tasks",
+        "where": {
+          "task": "Pausing purchasing",
+          "event": "end"
+        },
+        "pick": "first"
+      }
+    },
+    {
+      "id": "manual_fallback",
+      "label": "Manual fallback",
+      "unit": "h",
+      "color": "#f59e0b",
+      "start": {
+        "source": "tasks",
+        "where": {
+          "task": "Running manual fallback",
+          "event": "start"
+        },
+        "pick": "first"
+      },
+      "end": {
+        "source": "tasks",
+        "where": {
+          "task": "Running manual fallback",
+          "event": "end"
+        },
+        "pick": "first"
+      }
+    },
+    {
+      "id": "outsourced_logistics",
+      "label": "Outsourced logistics",
+      "unit": "h",
+      "color": "#10b981",
+      "start": {
+        "source": "tasks",
+        "where": {
+          "task": "Taking over logistics",
+          "event": "start"
+        },
+        "pick": "first"
+      },
+      "end": {
+        "source": "tasks",
+        "where": {
+          "task": "Taking over logistics",
+          "event": "end"
+        },
+        "pick": "first"
+      }
+    },
+    {
+      "id": "forensics_duration",
+      "label": "IT forensics",
+      "unit": "h",
+      "color": "#8b5cf6",
+      "start": {
+        "source": "tasks",
+        "where": {
+          "from": "external_it_forensics",
+          "event": "start"
+        },
+        "pick": "first"
+      },
+      "end": {
+        "source": "tasks",
+        "where": {
+          "from": "external_it_forensics",
+          "event": "end"
+        },
+        "pick": "last"
+      }
+    }
+  ],
+  "cost_categories": [
+    {
+      "id": "actual",
+      "label": "Actual costs",
+      "color": "#06b6d4"
+    },
+    {
+      "id": "lost_profit",
+      "label": "Lost profit",
+      "color": "#64748b"
+    }
+  ],
+  "costs": [
+    {
+      "id": "forensics_fee",
+      "category": "actual",
+      "rate_per_hour": 1000,
+      "flat_fee": 5000,
+      "span": {
+        "metric": "forensics_duration"
+      },
+      "label": "IT forensics"
+    },
+    {
+      "id": "outsourced_logistics_cost",
+      "category": "actual",
+      "rate_per_workday": 1500,
+      "span": {
+        "metric": "outsourced_logistics"
+      },
+      "label": "Outsourced logistics"
+    },
+    {
+      "id": "manual_fallback_cost",
+      "category": "lost_profit",
+      "rate_per_workday": 14000,
+      "span": {
+        "metric": "manual_fallback"
+      },
+      "label": "Manual fallback"
+    }
+  ]
+}

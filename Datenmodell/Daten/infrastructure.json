@@ -1,0 +1,93 @@
+{
+  "exercise": "tauernrad-run-1",
+  "events": [
+    {
+      "id": "<20260915090000.bnb4bb@tauernrad-exercise.local>",
+      "time": "2026-09-14T08:00:00",
+      "from": "facilitator",
+      "to": "it_administration",
+      "component": "database_server",
+      "state": "disrupted"
+    },
+    {
+      "id": "<20260915090000.8fvepy@tauernrad-exercise.local>",
+      "time": "2026-09-14T08:00:00",
+      "from": "facilitator",
+      "to": "production",
+      "component": "production_control",
+      "state": "blocked"
+    },
+    {
+      "id": "<20260915090000.28izd8@tauernrad-exercise.local>",
+      "time": "2026-09-14T08:00:00",
+      "from": "facilitator",
+      "to": "warehouse_shipping",
+      "component": "warehouse_system",
+      "state": "blocked"
+    },
+    {
+      "id": "<20260915105400.g88p3u@tauernrad-exercise.local>",
+      "time": "2026-09-16T11:00:00",
+      "from": "facilitator",
+      "to": "external_it_forensics",
+      "component": "database_server",
+      "state": "being restored"
+    },
+    {
+      "id": "<20260915105700.h8q8l9@tauernrad-exercise.local>",
+      "time": "2026-09-16T11:30:00",
+      "from": "facilitator",
+      "to": "it_administration",
+      "component": "identity_management",
+      "state": "under investigation"
+    },
+    {
+      "id": "<20260915110300.fs4xf3@tauernrad-exercise.local>",
+      "time": "2026-09-16T12:30:00",
+      "from": "facilitator",
+      "to": "it_administration",
+      "component": "identity_management",
+      "state": "available (reset)"
+    },
+    {
+      "id": "<20260915111500.c4lgp1@tauernrad-exercise.local>",
+      "time": "2026-09-17T10:00:00",
+      "from": "facilitator",
+      "to": "external_it_forensics",
+      "component": "database_server",
+      "state": "available"
+    },
+    {
+      "id": "<20260915112700.bd1yjv@tauernrad-exercise.local>",
+      "time": "2026-09-17T12:00:00",
+      "from": "facilitator",
+      "to": "production",
+      "component": "production_control",
+      "state": "test operation"
+    },
+    {
+      "id": "<20260915112700.byum2m@tauernrad-exercise.local>",
+      "time": "2026-09-17T12:00:00",
+      "from": "facilitator",
+      "to": "warehouse_shipping",
+      "component": "warehouse_system",
+      "state": "test operation"
+    },
+    {
+      "id": "<20260915113900.72k52r@tauernrad-exercise.local>",
+      "time": "2026-09-17T14:00:00",
+      "from": "facilitator",
+      "to": "production",
+      "component": "production_control",
+      "state": "available"
+    },
+    {
+      "id": "<20260915113900.ooanot@tauernrad-exercise.local>",
+      "time": "2026-09-17T14:00:00",
+      "from": "facilitator",
+      "to": "warehouse_shipping",
+      "component": "warehouse_system",
+      "state": "available"
+    }
+  ]
+}

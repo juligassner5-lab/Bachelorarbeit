@@ -1,0 +1,23 @@
+{
+  "_note": "BLANK FORM for the task events. Copy it, rename it to tasks.json, replace the sample events. Start and end are two separate events; the dashboard pairs them by actor and task name. Rules: ../Schema/events.schema.json.",
+  "exercise": "exercise-1",
+  "events": [
+    {
+      "_note": "event is start or end. to is the facilitator identifier from control_ids.",
+      "id": "task-1-start",
+      "time": "2026-01-05T08:00:00",
+      "from": "role-1",
+      "to": "facilitator",
+      "event": "start",
+      "task": "Name of an activity"
+    },
+    {
+      "id": "task-1-end",
+      "time": "2026-01-05T11:00:00",
+      "from": "role-1",
+      "to": "facilitator",
+      "event": "end",
+      "task": "Name of an activity"
+    }
+  ]
+}

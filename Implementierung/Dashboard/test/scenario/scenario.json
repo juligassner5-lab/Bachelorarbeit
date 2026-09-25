@@ -1,0 +1,654 @@
+{
+  "exercise": {
+    "id": "weserland-netz-run-1",
+    "name": "NetzWerk Weserland GmbH – Manipulation of the Protection Equipment (synthetic)",
+    "conducted_at": "2026-09-14T06:00:00+02:00"
+  },
+  "time_model": {
+    "tick_minutes": 60,
+    "compression_factor": 2,
+    "min_event_gap_minutes": 60,
+    "playback_ms_per_tick": 1000,
+    "business_day": {
+      "start": "06:00",
+      "end": "24:00"
+    },
+    "phases": [
+      {
+        "label": "Wk1 Mon",
+        "narrative_start": "2026-09-14T06:00:00",
+        "narrative_end": "2026-09-15T00:00:00",
+        "briefing": "[BRIEFING] Wk1 Mon, 06:00 – Intrusion detection reported unusual engineering traffic during the night."
+      },
+      {
+        "label": "Wk1 Tue",
+        "narrative_start": "2026-09-15T06:00:00",
+        "narrative_end": "2026-09-16T00:00:00",
+        "briefing": "[BRIEFING] Wk1 Tue, 06:00 – External ICS forensics has been examining the parameter sets since yesterday evening."
+      },
+      {
+        "label": "Wk1 Wed",
+        "narrative_start": "2026-09-16T06:00:00",
+        "narrative_end": "2026-09-17T00:00:00",
+        "briefing": "[BRIEFING] Wk1 Wed, 06:00 – Telecontrol is being shut down today on instruction from Grid Operations."
+      },
+      {
+        "label": "Wk1 Thu",
+        "narrative_start": "2026-09-17T06:00:00",
+        "narrative_end": "2026-09-18T00:00:00",
+        "briefing": "[BRIEFING] Wk1 Thu, 06:00 – The field campaign begins with the three substations."
+      },
+      {
+        "label": "Wk1 Fri",
+        "narrative_start": "2026-09-18T06:00:00",
+        "narrative_end": "2026-09-19T00:00:00",
+        "briefing": "[BRIEFING] Wk1 Fri, 06:00 – Substation South and Substation Harbor are checked today."
+      },
+      {
+        "label": "Wk2 Mon",
+        "narrative_start": "2026-09-21T06:00:00",
+        "narrative_end": "2026-09-22T00:00:00",
+        "briefing": "[BRIEFING] Wk2 Mon, 06:00 – The campaign continues with Secondary Substations Group A."
+      },
+      {
+        "label": "Wk2 Tue",
+        "narrative_start": "2026-09-22T06:00:00",
+        "narrative_end": "2026-09-23T00:00:00",
+        "briefing": "[BRIEFING] Wk2 Tue, 06:00 – Forensics has extended the scope to meter data management."
+      },
+      {
+        "label": "Wk2 Wed",
+        "narrative_start": "2026-09-23T06:00:00",
+        "narrative_end": "2026-09-24T00:00:00",
+        "briefing": "[BRIEFING] Wk2 Wed, 06:00 – Secondary Substations Group B are checked, the protection relay fleet receives a firmware update."
+      },
+      {
+        "label": "Wk2 Thu",
+        "narrative_start": "2026-09-24T06:00:00",
+        "narrative_end": "2026-09-25T00:00:00",
+        "briefing": "[BRIEFING] Wk2 Thu, 06:00 – All field sites are verified, telecontrol is reactivated in stages."
+      },
+      {
+        "label": "Wk2 Fri",
+        "narrative_start": "2026-09-25T06:00:00",
+        "narrative_end": "2026-09-26T00:00:00",
+        "briefing": "[BRIEFING] Wk2 Fri, 06:00 – The final evidence for the regulator and the transmission system operator is compiled."
+      }
+    ]
+  },
+  "control_ids": {
+    "facilitator": "facilitator"
+  },
+  "actors": [
+    {
+      "id": "external_ics_forensics",
+      "name": "External ICS Forensics",
+      "address": "external-ics-forensics@weserland-grid.local",
+      "order": 1
+    },
+    {
+      "id": "ot_security",
+      "name": "OT Security",
+      "address": "ot-security@weserland-grid.local",
+      "order": 2
+    },
+    {
+      "id": "information_security_officer",
+      "name": "Information Security Officer",
+      "address": "information-security-officer@weserland-grid.local",
+      "order": 3
+    },
+    {
+      "id": "it_operations",
+      "name": "IT Operations",
+      "address": "it-operations@weserland-grid.local",
+      "order": 4
+    },
+    {
+      "id": "control_system_vendor",
+      "name": "Control System Vendor",
+      "address": "control-system-vendor@weserland-grid.local",
+      "order": 5
+    },
+    {
+      "id": "protection_and_control",
+      "name": "Protection and Control Engineering",
+      "address": "protection-and-control@weserland-grid.local",
+      "order": 6
+    },
+    {
+      "id": "field_crew_1",
+      "name": "Field Crew 1",
+      "address": "field-crew-1@weserland-grid.local",
+      "order": 7
+    },
+    {
+      "id": "field_crew_2",
+      "name": "Field Crew 2",
+      "address": "field-crew-2@weserland-grid.local",
+      "order": 8
+    },
+    {
+      "id": "field_crew_3",
+      "name": "Field Crew 3",
+      "address": "field-crew-3@weserland-grid.local",
+      "order": 9
+    },
+    {
+      "id": "grid_operations",
+      "name": "Grid Operations",
+      "address": "grid-operations@weserland-grid.local",
+      "order": 10
+    },
+    {
+      "id": "control_center",
+      "name": "Control Center",
+      "address": "control-center@weserland-grid.local",
+      "order": 11
+    },
+    {
+      "id": "technical_management",
+      "name": "Technical Management",
+      "address": "technical-management@weserland-grid.local",
+      "order": 12
+    },
+    {
+      "id": "regulator_tso",
+      "name": "Regulator & Transmission System Operator",
+      "address": "regulator-tso@weserland-grid.local",
+      "order": 13
+    },
+    {
+      "id": "metering_point_operations",
+      "name": "Metering Point Operations",
+      "address": "metering-point-operations@weserland-grid.local",
+      "order": 14
+    },
+    {
+      "id": "energy_data_management",
+      "name": "Energy Data Management",
+      "address": "energy-data-management@weserland-grid.local",
+      "order": 15
+    }
+  ],
+  "components": [
+    {
+      "id": "process_data_network",
+      "name": "Process Data Network",
+      "depends_on": [],
+      "address": "process-data-network@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "grid_control_system",
+      "name": "Grid Control System",
+      "depends_on": [
+        "process_data_network"
+      ],
+      "address": "grid-control-system@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "backup_control_system",
+      "name": "Backup Control System",
+      "depends_on": [
+        "process_data_network"
+      ],
+      "address": "backup-control-system@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "intrusion_detection",
+      "name": "Intrusion Detection",
+      "depends_on": [
+        "process_data_network"
+      ],
+      "address": "intrusion-detection@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "telecontrol_center",
+      "name": "Telecontrol Center",
+      "depends_on": [
+        "process_data_network",
+        "grid_control_system"
+      ],
+      "address": "telecontrol-center@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "engineering_workstation",
+      "name": "Engineering Workstation",
+      "depends_on": [
+        "process_data_network",
+        "directory_service"
+      ],
+      "address": "engineering-workstation@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "vendor_remote_access",
+      "name": "Vendor Remote Access",
+      "depends_on": [
+        "office_network",
+        "process_data_network"
+      ],
+      "address": "vendor-remote-access@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "substation_north",
+      "name": "Substation North",
+      "depends_on": [
+        "telecontrol_center"
+      ],
+      "address": "substation-north@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "substation_south",
+      "name": "Substation South",
+      "depends_on": [
+        "telecontrol_center"
+      ],
+      "address": "substation-south@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "substation_harbor",
+      "name": "Substation Harbor",
+      "depends_on": [
+        "telecontrol_center"
+      ],
+      "address": "substation-harbor@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "secondary_substations_a",
+      "name": "Secondary Substations Group A",
+      "depends_on": [
+        "telecontrol_center"
+      ],
+      "address": "secondary-substations-a@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "secondary_substations_b",
+      "name": "Secondary Substations Group B",
+      "depends_on": [
+        "telecontrol_center"
+      ],
+      "address": "secondary-substations-b@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "protection_relay_fleet",
+      "name": "Protection Relay Fleet",
+      "depends_on": [
+        "substation_north",
+        "substation_south",
+        "substation_harbor"
+      ],
+      "address": "protection-relay-fleet@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "smart_meter_gateway_admin",
+      "name": "Smart Meter Gateway Administration",
+      "depends_on": [
+        "office_network"
+      ],
+      "address": "smart-meter-gateway-admin@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "meter_data_management",
+      "name": "Meter Data Management",
+      "depends_on": [
+        "smart_meter_gateway_admin"
+      ],
+      "address": "meter-data-management@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "energy_data_management_system",
+      "name": "Energy Data Management",
+      "depends_on": [
+        "meter_data_management",
+        "erp_billing"
+      ],
+      "address": "energy-data-management-system@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "office_network",
+      "name": "Office Network",
+      "depends_on": [],
+      "address": "office-network@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "directory_service",
+      "name": "Directory Service",
+      "depends_on": [
+        "office_network"
+      ],
+      "address": "directory-service@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "erp_billing",
+      "name": "ERP/Billing",
+      "depends_on": [
+        "directory_service"
+      ],
+      "address": "erp-billing@weserland-grid.local",
+      "initial_state": "normal"
+    },
+    {
+      "id": "grid_documentation",
+      "name": "Grid Documentation",
+      "depends_on": [
+        "directory_service"
+      ],
+      "address": "grid-documentation@weserland-grid.local",
+      "initial_state": "normal"
+    }
+  ],
+  "vocabulary": {
+    "component_states": [
+      {
+        "name": "normal",
+        "category": "ok"
+      },
+      {
+        "name": "verified",
+        "category": "ok"
+      },
+      {
+        "name": "parameters reset",
+        "category": "ok"
+      },
+      {
+        "name": "suspicious",
+        "category": "warning"
+      },
+      {
+        "name": "under verification",
+        "category": "warning"
+      },
+      {
+        "name": "in manual operation",
+        "category": "warning"
+      },
+      {
+        "name": "not trusted",
+        "category": "critical"
+      },
+      {
+        "name": "compromised",
+        "category": "critical"
+      },
+      {
+        "name": "locked",
+        "category": "critical"
+      }
+    ]
+  },
+  "metrics": [
+    {
+      "id": "manual_operation",
+      "label": "Manual operation, field level",
+      "unit": "h",
+      "color": "#eab308",
+      "start": {
+        "source": "infrastructure",
+        "where": {
+          "component": "telecontrol_center",
+          "state": "in manual operation"
+        },
+        "pick": "first"
+      },
+      "end": {
+        "source": "infrastructure",
+        "where": {
+          "component": "telecontrol_center",
+          "state": "verified"
+        },
+        "pick": "first"
+      }
+    },
+    {
+      "id": "control_system_not_trusted",
+      "label": "Control system not trusted",
+      "unit": "h",
+      "color": "#ef4444",
+      "start": {
+        "source": "infrastructure",
+        "where": {
+          "component": "grid_control_system",
+          "state": "not trusted"
+        },
+        "pick": "first"
+      },
+      "end": {
+        "source": "infrastructure",
+        "where": {
+          "component": "grid_control_system",
+          "state": "verified"
+        },
+        "pick": "first"
+      }
+    },
+    {
+      "id": "vendor_remote_access_locked",
+      "label": "Vendor remote access locked",
+      "unit": "h",
+      "color": "#8b5cf6",
+      "start": {
+        "source": "infrastructure",
+        "where": {
+          "component": "vendor_remote_access",
+          "state": "locked"
+        },
+        "pick": "first"
+      },
+      "end": {
+        "source": "infrastructure",
+        "where": {
+          "component": "vendor_remote_access",
+          "state": "verified"
+        },
+        "pick": "first"
+      }
+    },
+    {
+      "id": "field_campaign",
+      "label": "Field campaign (total)",
+      "unit": "h",
+      "color": "#0ea5e9",
+      "start": {
+        "source": "infrastructure",
+        "where": {
+          "state": "under verification"
+        },
+        "pick": "first"
+      },
+      "end": {
+        "source": "infrastructure",
+        "where": {
+          "state": "parameters reset"
+        },
+        "pick": "last"
+      }
+    },
+    {
+      "id": "site_verifications",
+      "label": "Site verifications started",
+      "unit": "",
+      "color": "#10b981",
+      "start": {
+        "source": "infrastructure",
+        "where": {
+          "state": "under verification"
+        },
+        "pick": "count"
+      }
+    },
+    {
+      "id": "regulator_communication",
+      "label": "Communication with the regulator",
+      "unit": "",
+      "color": "#64748b",
+      "start": {
+        "source": "communication",
+        "where": {
+          "to": "regulator_tso"
+        },
+        "pick": "count"
+      }
+    },
+    {
+      "id": "ics_forensics_duration",
+      "label": "External ICS forensics",
+      "unit": "h",
+      "color": "#f59e0b",
+      "start": {
+        "source": "tasks",
+        "where": {
+          "from": "external_ics_forensics",
+          "event": "start"
+        },
+        "pick": "first"
+      },
+      "end": {
+        "source": "tasks",
+        "where": {
+          "from": "external_ics_forensics",
+          "event": "end"
+        },
+        "pick": "last"
+      }
+    },
+    {
+      "id": "vendor_reference_build",
+      "label": "Vendor reference build",
+      "unit": "h",
+      "color": "#4f46e5",
+      "start": {
+        "source": "tasks",
+        "where": {
+          "from": "control_system_vendor",
+          "event": "start"
+        },
+        "pick": "first"
+      },
+      "end": {
+        "source": "tasks",
+        "where": {
+          "from": "control_system_vendor",
+          "event": "end"
+        },
+        "pick": "first"
+      }
+    },
+    {
+      "id": "relay_firmware_update",
+      "label": "Protection relay firmware update",
+      "unit": "h",
+      "color": "#22c55e",
+      "start": {
+        "source": "tasks",
+        "where": {
+          "from": "protection_and_control",
+          "task": "Raising the protection relay fleet to vendor release",
+          "event": "start"
+        },
+        "pick": "first"
+      },
+      "end": {
+        "source": "tasks",
+        "where": {
+          "from": "protection_and_control",
+          "task": "Raising the protection relay fleet to vendor release",
+          "event": "end"
+        },
+        "pick": "first"
+      }
+    }
+  ],
+  "cost_categories": [
+    {
+      "id": "external_services",
+      "label": "External services",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "operating_costs",
+      "label": "Additional operating costs",
+      "color": "#0ea5e9"
+    },
+    {
+      "id": "regulatory_conditions",
+      "label": "Cost of regulatory conditions",
+      "color": "#64748b"
+    }
+  ],
+  "costs": [
+    {
+      "id": "ics_forensics_fee",
+      "label": "External ICS forensics",
+      "category": "external_services",
+      "rate_per_hour": 950,
+      "flat_fee": 4000,
+      "span": {
+        "metric": "ics_forensics_duration"
+      }
+    },
+    {
+      "id": "vendor_reference_fee",
+      "label": "Vendor reference build",
+      "category": "external_services",
+      "rate_per_hour": 350,
+      "span": {
+        "metric": "vendor_reference_build"
+      }
+    },
+    {
+      "id": "manual_operation_extra_cost",
+      "label": "Manual operation extra shifts",
+      "category": "operating_costs",
+      "rate_per_workday": 3200,
+      "span": {
+        "metric": "manual_operation"
+      }
+    },
+    {
+      "id": "field_campaign_cost",
+      "label": "Field campaign crews",
+      "category": "operating_costs",
+      "rate_per_workday": 2600,
+      "span": {
+        "metric": "field_campaign"
+      }
+    },
+    {
+      "id": "relay_firmware_update_cost",
+      "label": "Protection relay firmware update",
+      "category": "operating_costs",
+      "rate_per_hour": 180,
+      "span": {
+        "metric": "relay_firmware_update"
+      }
+    },
+    {
+      "id": "regulatory_conditions_cost",
+      "label": "Regulatory conditions",
+      "category": "regulatory_conditions",
+      "rate_per_workday": 1800,
+      "span": {
+        "metric": "manual_operation"
+      }
+    }
+  ]
+}

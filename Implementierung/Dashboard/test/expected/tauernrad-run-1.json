@@ -1,0 +1,27 @@
+{
+  "_note": "Target values for the example exercise TauernRad AG. Event counts follow from the dataset itself; durations and cost totals from the cost model of aspect 5.",
+  "event_counts": {
+    "total": 80,
+    "communication": 28,
+    "task_start": 22,
+    "task_end": 19,
+    "infrastructure": 11
+  },
+  "total_ticks": 74,
+  "metric_hours": {
+    "purchasing_freeze": 20.5,
+    "manual_fallback": 24.5,
+    "outsourced_logistics": 28.5,
+    "forensics_duration": 23.5
+  },
+  "cost_amounts": {
+    "forensics_fee": 28500,
+    "outsourced_logistics_cost": 4750,
+    "manual_fallback_cost": 38111
+  },
+  "category_totals": {
+    "actual": 33250,
+    "lost_profit": 38111
+  },
+  "grand_total": 71361
+}

@@ -1,0 +1,201 @@
+{
+  "exercise": "tauernrad-run-1",
+  "events": [
+    {
+      "id": "<20260915090600.af1bb1@tauernrad-exercise.local>",
+      "time": "2026-09-14T09:00:00",
+      "from": "production",
+      "to": "ceo",
+      "subject": "Assembly Line Down"
+    },
+    {
+      "id": "<20260915091200.c0abq9@tauernrad-exercise.local>",
+      "time": "2026-09-14T10:00:00",
+      "from": "it_administration",
+      "to": "ceo",
+      "subject": "Security Incident Detected"
+    },
+    {
+      "id": "<20260915091500.8cnk2s@tauernrad-exercise.local>",
+      "time": "2026-09-14T10:30:00",
+      "from": "ceo",
+      "to": "it_administration",
+      "subject": "Contact IT Forensics"
+    },
+    {
+      "id": "<20260915092400.0jgqa0@tauernrad-exercise.local>",
+      "time": "2026-09-14T12:00:00",
+      "from": "it_administration",
+      "to": "external_it_forensics",
+      "subject": "Make Contact"
+    },
+    {
+      "id": "<20260915093300.tnnlje@tauernrad-exercise.local>",
+      "time": "2026-09-14T13:30:00",
+      "from": "warehouse_shipping",
+      "to": "ceo",
+      "subject": "Warehouse System Blocked"
+    },
+    {
+      "id": "<20260915093600.zzfs51@tauernrad-exercise.local>",
+      "time": "2026-09-14T14:00:00",
+      "from": "ceo",
+      "to": "production",
+      "subject": "Start Manual Fallback"
+    },
+    {
+      "id": "<20260915094800.49oyp5@tauernrad-exercise.local>",
+      "time": "2026-09-14T16:00:00",
+      "from": "warehouse_shipping",
+      "to": "logistics_partner",
+      "subject": "Make Contact"
+    },
+    {
+      "id": "<20260915095100.1mr37b@tauernrad-exercise.local>",
+      "time": "2026-09-14T16:30:00",
+      "from": "logistics_partner",
+      "to": "warehouse_shipping",
+      "subject": "Confirm Takeover"
+    },
+    {
+      "id": "<20260915100000.gi5993@tauernrad-exercise.local>",
+      "time": "2026-09-15T08:30:00",
+      "from": "ceo",
+      "to": "authorities_retailers",
+      "subject": "Reporting Incident"
+    },
+    {
+      "id": "<20260915100300.fuk29y@tauernrad-exercise.local>",
+      "time": "2026-09-15T09:00:00",
+      "from": "external_it_forensics",
+      "to": "it_administration",
+      "subject": "Start On-Site Analysis"
+    },
+    {
+      "id": "<20260915100900.h9efpo@tauernrad-exercise.local>",
+      "time": "2026-09-15T10:00:00",
+      "from": "logistics_partner",
+      "to": "warehouse_shipping",
+      "subject": "Start Takeover"
+    },
+    {
+      "id": "<20260915102700.pg22ob@tauernrad-exercise.local>",
+      "time": "2026-09-15T13:00:00",
+      "from": "external_it_forensics",
+      "to": "it_administration",
+      "subject": "Backup Being Verified"
+    },
+    {
+      "id": "<20260915103000.pe4gyc@tauernrad-exercise.local>",
+      "time": "2026-09-15T13:30:00",
+      "from": "it_administration",
+      "to": "ceo",
+      "subject": "Backup Being Verified"
+    },
+    {
+      "id": "<20260915103300.93osgg@tauernrad-exercise.local>",
+      "time": "2026-09-15T14:00:00",
+      "from": "ceo",
+      "to": "procurement",
+      "subject": "Stop Purchasing"
+    },
+    {
+      "id": "<20260915105100.jh8yuk@tauernrad-exercise.local>",
+      "time": "2026-09-16T10:30:00",
+      "from": "external_it_forensics",
+      "to": "it_administration",
+      "subject": "Start Restoration"
+    },
+    {
+      "id": "<20260915110600.jvh0qt@tauernrad-exercise.local>",
+      "time": "2026-09-16T13:00:00",
+      "from": "it_administration",
+      "to": "ceo",
+      "subject": "Resetting Credentials"
+    },
+    {
+      "id": "<20260915111800.xqhvai@tauernrad-exercise.local>",
+      "time": "2026-09-17T10:30:00",
+      "from": "external_it_forensics",
+      "to": "it_administration",
+      "subject": "Database Server Back Online"
+    },
+    {
+      "id": "<20260915112100.0m739t@tauernrad-exercise.local>",
+      "time": "2026-09-17T11:00:00",
+      "from": "external_it_forensics",
+      "to": "ceo",
+      "subject": "Issuing Invoice"
+    },
+    {
+      "id": "<20260915113300.h9ye9u@tauernrad-exercise.local>",
+      "time": "2026-09-17T13:00:00",
+      "from": "it_administration",
+      "to": "ceo",
+      "subject": "Systems Being Reactivated"
+    },
+    {
+      "id": "<20260915114200.6cmuu6@tauernrad-exercise.local>",
+      "time": "2026-09-17T14:30:00",
+      "from": "it_administration",
+      "to": "ceo",
+      "subject": "All Systems Available Again"
+    },
+    {
+      "id": "<20260915115100.o3dh5h@tauernrad-exercise.local>",
+      "time": "2026-09-17T16:00:00",
+      "from": "ceo",
+      "to": "procurement",
+      "subject": "Lift Purchasing Freeze"
+    },
+    {
+      "id": "<20260915120000.gh1uzu@tauernrad-exercise.local>",
+      "time": "2026-09-18T08:30:00",
+      "from": "ceo",
+      "to": "procurement",
+      "subject": "Reconcile Orders"
+    },
+    {
+      "id": "<20260915120300.vxfey6@tauernrad-exercise.local>",
+      "time": "2026-09-18T09:00:00",
+      "from": "ceo",
+      "to": "production",
+      "subject": "Reconcile Production Status"
+    },
+    {
+      "id": "<20260915122100.v52x08@tauernrad-exercise.local>",
+      "time": "2026-09-18T12:00:00",
+      "from": "ceo",
+      "to": "warehouse_shipping",
+      "subject": "Take Inventory"
+    },
+    {
+      "id": "<20260915123600.u9dtlo@tauernrad-exercise.local>",
+      "time": "2026-09-18T14:30:00",
+      "from": "procurement",
+      "to": "ceo",
+      "subject": "Entering Missing Orders"
+    },
+    {
+      "id": "<20260915124200.r8vlrv@tauernrad-exercise.local>",
+      "time": "2026-09-18T15:30:00",
+      "from": "production",
+      "to": "ceo",
+      "subject": "Confirming Production Status"
+    },
+    {
+      "id": "<20260915124200.mgbaph@tauernrad-exercise.local>",
+      "time": "2026-09-18T15:30:00",
+      "from": "warehouse_shipping",
+      "to": "ceo",
+      "subject": "Completing Inventory"
+    },
+    {
+      "id": "<20260915125100.7m899k@tauernrad-exercise.local>",
+      "time": "2026-09-18T17:00:00",
+      "from": "ceo",
+      "to": "authorities_retailers",
+      "subject": "Reporting Closure"
+    }
+  ]
+}
